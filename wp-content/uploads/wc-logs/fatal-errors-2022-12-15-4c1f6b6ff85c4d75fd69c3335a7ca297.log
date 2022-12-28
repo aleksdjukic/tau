@@ -1,0 +1,11 @@
+2022-12-15T11:03:15+00:00 CRITICAL Uncaught Error: Class 'Wdr\App\Controllers\DiscountCalculator' not found in /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/woo-discount-rules/v2/App/Controllers/ManageDiscount.php:37
+Stack trace:
+#0 /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/woo-discount-rules/v2/App/Controllers/ManageDiscount.php(24): Wdr\App\Controllers\ManageDiscount->getDiscountRules()
+#1 /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/woo-discount-rules/v2/App/Controllers/Admin/WDRAjax.php(32): Wdr\App\Controllers\ManageDiscount->__construct()
+#2 /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/woo-discount-rules/v2/App/Router.php(29): Wdr\App\Controllers\Admin\WDRAjax->__construct()
+#3 /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/woo-discount-rules/woo-discount-rules.php(179): Wdr\App\Router->__construct()
+#4 /home/sawproch/public_html/taurussports.omae.ch/wp-includes/class-wp-hook.php(308): {closure}('')
+#5 /home/sawproch/public_html/ in /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/woo-discount-rules/v2/App/Controllers/ManageDiscount.php on line 37
+
+2022-12-15T13:37:59+00:00 CRITICAL require_once(): Failed opening required '/home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/wpmudev-updates/includes/class-wpmudev-dashboard-settings.php' (include_path='.') in /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/wpmudev-updates/update-notifications.php on line 194
+

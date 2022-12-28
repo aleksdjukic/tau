@@ -1,0 +1,9 @@
+2022-12-06T10:48:20+00:00 CRITICAL Uncaught Error: Class 'ElementorPro\Modules\Notes\Database\Transformers\User_Transformer' not found in /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/elementor-pro/modules/notes/data/controller.php:35
+Stack trace:
+#0 /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/elementor-pro/modules/notes/module.php(211): ElementorPro\Modules\Notes\Data\Controller->__construct()
+#1 /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/elementor/core/base/module.php(85): ElementorPro\Modules\Notes\Module->__construct()
+#2 /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/elementor-pro/core/modules-manager.php(86): Elementor\Core\Base\Module::instance()
+#3 /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/elementor-pro/plugin.php(357): ElementorPro\Core\Modules_Manager->__construct()
+#4 /home/sawproch/public_html/taurussports.omae.ch/wp-includes/class-wp-hook.php(308): ElementorPro\Plugin->on_elementor_init('')
+#5 /home/sawproch/public_html in /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/elementor-pro/modules/notes/data/controller.php on line 35
+

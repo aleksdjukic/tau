@@ -1,0 +1,84 @@
+.elementor-1483 .elementor-element.elementor-element-0c0c03e > .elementor-element-populated{margin:80px 0px 0px 0px;--e-column-margin-right:0px;--e-column-margin-left:0px;}.elementor-1483 .elementor-element.elementor-element-ca92d62 > .elementor-widget-container{margin:0px 0px 0px 0px;}.elementor-1483 .elementor-element.elementor-element-fa13fa1.elementor-wc-products  ul.products{grid-column-gap:25px;grid-row-gap:25px;}.elementor-1483 .elementor-element.elementor-element-fa13fa1.elementor-wc-products ul.products li.product .woocommerce-loop-product__title{color:#1D1D1B;}.elementor-1483 .elementor-element.elementor-element-fa13fa1.elementor-wc-products ul.products li.product .woocommerce-loop-category__title{color:#1D1D1B;}.elementor-1483 .elementor-element.elementor-element-fa13fa1.elementor-wc-products ul.products li.product .woocommerce-loop-product__title, .elementor-1483 .elementor-element.elementor-element-fa13fa1.elementor-wc-products ul.products li.product .woocommerce-loop-category__title{font-family:"Karla", Sans-serif;font-size:25px;font-weight:700;font-style:normal;line-height:32px;}.elementor-1483 .elementor-element.elementor-element-fa13fa1.elementor-wc-products ul.products li.product .price{color:#1D1D1B;font-family:"Karla", Sans-serif;font-size:18px;font-weight:400;}.elementor-1483 .elementor-element.elementor-element-fa13fa1.elementor-wc-products ul.products li.product .price ins{color:#1D1D1B;}.elementor-1483 .elementor-element.elementor-element-fa13fa1.elementor-wc-products ul.products li.product .price ins .amount{color:#1D1D1B;}.elementor-1483 .elementor-element.elementor-element-fa13fa1.elementor-wc-products ul.products li.product .price del{color:#1D1D1B;}.elementor-1483 .elementor-element.elementor-element-fa13fa1.elementor-wc-products ul.products li.product .price del .amount{color:#1D1D1B;}.elementor-1483 .elementor-element.elementor-element-fa13fa1.elementor-wc-products ul.products li.product .price del {font-family:"Karla", Sans-serif;font-size:18px;font-weight:400;}.elementor-1483 .elementor-element.elementor-element-fa13fa1.elementor-wc-products ul.products li.product span.onsale{display:block;}@media(min-width:768px){.elementor-1483 .elementor-element.elementor-element-0c0c03e{width:21.352%;}.elementor-1483 .elementor-element.elementor-element-2beb230{width:78.313%;}}@media(max-width:1024px){.elementor-1483 .elementor-element.elementor-element-fa13fa1.elementor-wc-products  ul.products{grid-column-gap:20px;grid-row-gap:40px;}}@media(max-width:767px){.elementor-1483 .elementor-element.elementor-element-fa13fa1.elementor-wc-products  ul.products{grid-column-gap:20px;grid-row-gap:40px;}}/* Start custom CSS for shortcode, class: .elementor-element-ca92d62 */.elementor-1483 .elementor-element.elementor-element-ca92d62{
+    background-color: #FFFFFF!important;
+    border-radius: 30px;
+    padding: 15px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.07)
+}
+
+.elementor-1483 .elementor-element.elementor-element-ca92d62 .apply-filters{
+    width: 100%;
+    border-radius: 15px;
+}/* End custom CSS */
+/* Start custom CSS for wc-archive-products, class: .elementor-element-fa13fa1 */.elementor-1483 .elementor-element.elementor-element-fa13fa1 li{
+    background: #fff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .07)!important;
+    border-radius: 30px 30px 0 0;
+    overflow: hidden;
+}
+
+.elementor-1483 .elementor-element.elementor-element-fa13fa1 li .tinv-wishlist{
+    position: absolute;
+    top: 0;
+    left: 25px;
+    transform: scale(1.5);
+}
+
+.elementor-1483 .elementor-element.elementor-element-fa13fa1 li .onsale{
+    border-radius: 0 30px 0 30px!important;
+    background: #FCE14A;
+    color: #1D1D1B;
+    font-family: 'Karla', sans-serif;
+    font-size: 25px;
+    margin: 0!important;
+    line-height: 1;
+    min-width: auto;
+    min-height: auto;
+    padding: 15px 10px 17px!important;
+}
+
+.elementor-1483 .elementor-element.elementor-element-fa13fa1 li .add_to_cart_button{
+    display: block;
+    position: relative;
+    text-align: center;
+    background: #FCE14A;
+    color: #1D1D1B;
+    border-radius: 15px;
+}
+
+.elementor-1483 .elementor-element.elementor-element-fa13fa1 li .add_to_cart_button::before{
+    content: "";
+    position: absolute;
+    height: .5px;
+    width: 20px;
+    top: 50%;
+    left: -20px;
+    background: #8D8D8C;
+}
+.elementor-1483 .elementor-element.elementor-element-fa13fa1 li .add_to_cart_button::after{
+    content: "";
+    position: absolute;
+    height: .5px;
+    width: 20px;
+    top: 50%;
+    right: -20px;
+    background: #8D8D8C;
+}
+
+.ast-off-canvas-overlay .woocommerce .astra-off-canvas-sidebar-wrapper, .ast-off-canvas-overlay .woocommerce-page .astra-off-canvas-sidebar-wrapper{
+    z-index: 1000;
+}
+
+.elementor-1483 .elementor-element.elementor-element-fa13fa1 .elementor-nothing-found{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+/**//* End custom CSS */

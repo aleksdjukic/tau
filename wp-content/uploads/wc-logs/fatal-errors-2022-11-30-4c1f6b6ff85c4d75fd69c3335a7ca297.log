@@ -1,0 +1,18 @@
+2022-11-30T12:08:14+00:00 CRITICAL Uncaught Error: Class 'ElementorPro\Modules\Notes\User\Capabilities' not found in /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/elementor-pro/modules/notes/module.php:201
+Stack trace:
+#0 /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/elementor/core/base/module.php(85): ElementorPro\Modules\Notes\Module->__construct()
+#1 /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/elementor-pro/core/modules-manager.php(86): Elementor\Core\Base\Module::instance()
+#2 /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/elementor-pro/plugin.php(357): ElementorPro\Core\Modules_Manager->__construct()
+#3 /home/sawproch/public_html/taurussports.omae.ch/wp-includes/class-wp-hook.php(308): ElementorPro\Plugin->on_elementor_init('')
+#4 /home/sawproch/public_html/taurussports.omae.ch/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 /home/sawproch/public_html/taurussports.omae.ch/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 / in /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/elementor-pro/modules/notes/module.php on line 201
+
+2022-11-30T12:12:06+00:00 CRITICAL require_once(): Failed opening required '/home/sawproch/public_html/taurussports.omae.ch/wp-content/themes/astra/inc/compatibility/class-astra-beaver-themer.php' (include_path='.') in /home/sawproch/public_html/taurussports.omae.ch/wp-content/themes/astra/functions.php on line 164
+
+2022-11-30T12:14:37+00:00 CRITICAL require_once(): Failed opening required '/home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/astra-addon/admin/bsf-analytics/class-bsf-analytics-stats.php' (include_path='.') in /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/astra-addon/admin/bsf-analytics/class-bsf-analytics.php on line 339
+
+2022-11-30T12:18:39+00:00 CRITICAL require(): Failed opening required '/home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/wp-smush-pro/core/modules/class-smush.php' (include_path='.') in /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/wp-smush-pro/wp-smush.php on line 271
+
+2022-11-30T12:18:58+00:00 CRITICAL require_once(): Failed opening required '/home/sawproch/public_html/taurussports.omae.ch/wp-admin/includes/post.php' (include_path='.') in /home/sawproch/public_html/taurussports.omae.ch/wp-admin/includes/admin.php on line 55
+

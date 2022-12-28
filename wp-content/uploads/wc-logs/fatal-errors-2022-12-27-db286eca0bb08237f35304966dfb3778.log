@@ -1,0 +1,559 @@
+2022-12-27T07:11:54+00:00 CRITICAL require(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/woocommerce/src/Admin/API/NoteActions.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+
+2022-12-27T07:14:44+00:00 CRITICAL require(): Failed opening required '/home/maniabest/public_html/wp-includes/blocks/require-static-blocks.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-includes/blocks/index.php on line 22
+
+2022-12-27T07:14:44+00:00 CRITICAL Uncaught Error: Class 'ElementorPro\Modules\GlobalWidget\Documents\Widget' not found in /home/maniabest/public_html/wp-content/plugins/elementor-pro/modules/global-widget/module.php:195
+Stack trace:
+#0 /home/maniabest/public_html/wp-includes/class-wp-hook.php(308): ElementorPro\Modules\GlobalWidget\Module->register_documents(Object(Elementor\Core\Documents_Manager))
+#1 /home/maniabest/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /home/maniabest/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/maniabest/public_html/wp-content/plugins/elementor/core/documents-manager.php(692): do_action('elementor/docum...', Object(Elementor\Core\Documents_Manager))
+#4 /home/maniabest/public_html/wp-content/plugins/elementor/core/documents-manager.php(314): Elementor\Core\Documents_Manager->register_types()
+#5 /home/maniabest/public_html/wp-content/plugins/elementor/includes/template-library/data/endpoints/templates.php(18): Elementor\Core\Documents_Manager->g in /home/maniabest/public_html/wp-content/plugins/elementor-pro/modules/global-widget/module.php on line 195
+
+2022-12-27T08:54:40+00:00 CRITICAL require(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/Cart.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+
+2022-12-27T08:54:40+00:00 CRITICAL require_once(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/astra-addon/addons/advanced-search/class-astra-ext-advanced-search.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/astra-addon/classes/class-astra-ext-model.php on line 55
+
+2022-12-27T08:54:40+00:00 CRITICAL require_once(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/astra-addon/addons/woocommerce/classes/common-functions.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/astra-addon/addons/woocommerce/class-astra-ext-woocommerce.php on line 48
+
+2022-12-27T08:54:40+00:00 CRITICAL Uncaught Error: Class 'ElementorPro\License\Updater' not found in /home/maniabest/public_html/wp-content/plugins/elementor-pro/plugin.php:494
+Stack trace:
+#0 /home/maniabest/public_html/wp-content/plugins/elementor-pro/plugin.php(122): ElementorPro\Plugin->__construct()
+#1 /home/maniabest/public_html/wp-content/plugins/elementor-pro/plugin.php(514): ElementorPro\Plugin::instance()
+#2 /home/maniabest/public_html/wp-content/plugins/elementor-pro/elementor-pro.php(57): require('/home/maniabest...')
+#3 /home/maniabest/public_html/wp-includes/class-wp-hook.php(308): elementor_pro_load_plugin('')
+#4 /home/maniabest/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/maniabest/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/maniabest/public_html/wp-settings.php(480): do_action('plugins_loaded')
+#7 /home/maniabest/public_html/wp-config.php(97): require_once('/home/maniabest...')
+#8 /home/maniabest/public_html/wp-load.php(50): require_once('/home/man in /home/maniabest/public_html/wp-content/plugins/elementor-pro/plugin.php on line 494
+
+2022-12-27T08:55:07+00:00 CRITICAL require_once(): Failed opening required '/home/maniabest/public_html/wp-content/themes/astra/inc/schema/class-astra-schema.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/themes/astra/functions.php on line 103
+
+2022-12-27T08:59:23+00:00 CRITICAL require(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/elementor/core/common/modules/event-tracker/data/controller.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/elementor/includes/autoloader.php on line 294
+
+2022-12-27T09:01:03+00:00 CRITICAL require(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/elementor/modules/notes/module.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/elementor/includes/autoloader.php on line 294
+
+2022-12-27T09:01:17+00:00 CRITICAL require_once(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/elementskit-lite/libs/framework/classes/onboard-status.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/elementskit-lite/autoloader.php on line 55
+
+2022-12-27T09:01:17+00:00 CRITICAL require(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ProductStockIndicator.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+
+2022-12-27T09:47:41+00:00 CRITICAL require(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-payment-method-bacs.asset.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Assets/Api.php on line 98
+
+2022-12-27T09:47:41+00:00 CRITICAL require(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/cart-frontend.asset.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Assets/Api.php on line 98
+
+2022-12-27T09:48:01+00:00 CRITICAL Uncaught Error: Class 'ElementorPro\Core\App\Modules\SiteEditor\Data\Endpoints\Templates_Conditions' not found in /home/maniabest/public_html/wp-content/plugins/elementor/data/base/controller.php:210
+Stack trace:
+#0 /home/maniabest/public_html/wp-content/plugins/elementor-pro/core/app/modules/site-editor/data/controller.php(19): Elementor\Data\Base\Controller->register_endpoint('ElementorPro\\Co...')
+#1 /home/maniabest/public_html/wp-content/plugins/elementor/data/base/controller.php(265): ElementorPro\Core\App\Modules\SiteEditor\Data\Controller->register_endpoints()
+#2 /home/maniabest/public_html/wp-content/plugins/elementor/data/base/controller.php(40): Elementor\Data\Base\Controller->register()
+#3 /home/maniabest/public_html/wp-includes/class-wp-hook.php(308): Elementor\Data\Base\Controller->Elementor\Data\Base\{closure}(Object(WP_REST_Server))
+#4 /home/maniabest/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/maniabest/public_html/wp-includes/plugin.php(517): W in /home/maniabest/public_html/wp-content/plugins/elementor/data/base/controller.php on line 210
+
+2022-12-27T09:49:41+00:00 CRITICAL require(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/elementor/data/v2/base/endpoint.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/elementor/includes/autoloader.php on line 294
+
+2022-12-27T09:52:10+00:00 CRITICAL require(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+
+2022-12-27T09:53:23+00:00 CRITICAL require_once(): Failed opening required '/home/maniabest/public_html/wp-content/themes/astra/inc/compatibility/woocommerce/class-astra-woocommerce.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/themes/astra/functions.php on line 135
+
+2022-12-27T09:53:53+00:00 CRITICAL require_once(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/ti-woocommerce-wishlist/integrations/theme-flatsome.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/ti-woocommerce-wishlist/ti-woocommerce-wishlist.php on line 245
+
+2022-12-27T09:53:55+00:00 CRITICAL Uncaught Error: Class '\ElementorPro\Modules\RoleManager\Module' not found in /home/maniabest/public_html/wp-content/plugins/elementor-pro/core/modules-manager.php:75
+Stack trace:
+#0 /home/maniabest/public_html/wp-content/plugins/elementor-pro/plugin.php(358): ElementorPro\Core\Modules_Manager->__construct()
+#1 /home/maniabest/public_html/wp-includes/class-wp-hook.php(308): ElementorPro\Plugin->on_elementor_init('')
+#2 /home/maniabest/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 /home/maniabest/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/maniabest/public_html/wp-content/plugins/elementor/includes/plugin.php(652): do_action('elementor/init')
+#5 /home/maniabest/public_html/wp-includes/class-wp-hook.php(308): Elementor\Plugin->init('')
+#6 /home/maniabest/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /home/maniabest/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/maniabest/p in /home/maniabest/public_html/wp-content/plugins/elementor-pro/core/modules-manager.php on line 75
+
+2022-12-27T09:53:55+00:00 CRITICAL Uncaught Error: Class '\ElementorPro\Modules\RoleManager\Module' not found in /home/maniabest/public_html/wp-content/plugins/elementor-pro/core/modules-manager.php:75
+Stack trace:
+#0 /home/maniabest/public_html/wp-content/plugins/elementor-pro/plugin.php(358): ElementorPro\Core\Modules_Manager->__construct()
+#1 /home/maniabest/public_html/wp-includes/class-wp-hook.php(308): ElementorPro\Plugin->on_elementor_init('')
+#2 /home/maniabest/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 /home/maniabest/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/maniabest/public_html/wp-content/plugins/elementor/includes/plugin.php(652): do_action('elementor/init')
+#5 /home/maniabest/public_html/wp-includes/class-wp-hook.php(308): Elementor\Plugin->init('')
+#6 /home/maniabest/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /home/maniabest/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/maniabest/p in /home/maniabest/public_html/wp-content/plugins/elementor-pro/core/modules-manager.php on line 75
+
+2022-12-27T09:54:00+00:00 CRITICAL Uncaught Error: Class 'ElementorPro\Modules\ThemeBuilder\Classes\Theme_Support' not found in /home/maniabest/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/module.php:432
+Stack trace:
+#0 /home/maniabest/public_html/wp-content/plugins/elementor/core/base/module.php(85): ElementorPro\Modules\ThemeBuilder\Module->__construct()
+#1 /home/maniabest/public_html/wp-content/plugins/elementor-pro/core/modules-manager.php(86): Elementor\Core\Base\Module::instance()
+#2 /home/maniabest/public_html/wp-content/plugins/elementor-pro/plugin.php(358): ElementorPro\Core\Modules_Manager->__construct()
+#3 /home/maniabest/public_html/wp-includes/class-wp-hook.php(308): ElementorPro\Plugin->on_elementor_init('')
+#4 /home/maniabest/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 /home/maniabest/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/maniabest/public_html/wp-content/plugins/elementor/includes/plugin.php(652): do_action('elementor/init')
+#7 / in /home/maniabest/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/module.php on line 432
+
+2022-12-27T09:54:22+00:00 CRITICAL require_once(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/astra-addon/classes/builder/type/header/social-icon/classes/class-astra-header-social-component-loader.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/astra-addon/classes/builder/type/header/social-icon/class-astra-header-social-component.php on line 35
+
+2022-12-27T09:54:22+00:00 CRITICAL require_once(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/astra-addon/classes/builder/type/header/menu/dynamic-css/dynamic.css.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/astra-addon/classes/builder/type/header/menu/class-astra-addon-header-menu-component.php on line 36
+
+2022-12-27T09:55:17+00:00 CRITICAL require_once(): Failed opening required '/home/maniabest/public_html/wp-includes/widgets/class-wp-widget-recent-comments.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-includes/default-widgets.php on line 53
+
+2022-12-27T09:55:19+00:00 CRITICAL require_once(): Failed opening required '/home/maniabest/public_html/wp-content/themes/astra/inc/builder/type/footer/above-footer/class-astra-above-footer.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php on line 296
+
+2022-12-27T09:55:39+00:00 CRITICAL require_once(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/ti-woocommerce-wishlist/public/wishlistcounter.class.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/ti-woocommerce-wishlist/ti-woocommerce-wishlist.php on line 199
+
+2022-12-27T09:55:47+00:00 CRITICAL Uncaught Error: Class '\ElementorPro\Modules\ThemeBuilder\Conditions\Date' not found in /home/maniabest/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php:182
+Stack trace:
+#0 /home/maniabest/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(193): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->register_condition('date', Array)
+#1 /home/maniabest/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(193): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->register_condition('date', Array)
+#2 /home/maniabest/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(264): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->register_condition('archive')
+#3 /home/maniabest/public_html/wp-includes/class-wp-hook.php(308): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->register_conditions('') in /home/maniabest/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php on line 182
+
+2022-12-27T09:55:58+00:00 CRITICAL Uncaught Error: Class 'ElementorPro\Modules\ThemeBuilder\Documents\Header_Footer_Base' not found in /home/maniabest/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/header.php:8
+Stack trace:
+#0 /home/maniabest/public_html/wp-content/plugins/elementor-pro/plugin.php(154): include()
+#1 [internal function]: ElementorPro\Plugin->autoload('ElementorPro\\Mo...')
+#2 /home/maniabest/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/templates-types-manager.php(37): spl_autoload_call('ElementorPro\\Mo...')
+#3 /home/maniabest/public_html/wp-includes/class-wp-hook.php(308): ElementorPro\Modules\ThemeBuilder\Classes\Templates_Types_Manager->register_documents(Object(Elementor\Core\Documents_Manager))
+#4 /home/maniabest/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/maniabest/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/maniabest/public_html/wp-content/plugins/elementor/core/documents-manager.ph in /home/maniabest/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/header.php on line 8
+
+2022-12-27T09:56:16+00:00 CRITICAL require_once(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/astra-addon/admin/bsf-core/plugin-installer/admin-functions.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/astra-addon/admin/bsf-core/index.php on line 92
+
+2022-12-27T09:56:20+00:00 CRITICAL require_once(): Failed opening required '/home/maniabest/public_html/wp-content/themes/astra/inc/core/class-astra-attr.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/themes/astra/functions.php on line 71
+
+2022-12-27T09:56:20+00:00 CRITICAL require_once(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/ti-woocommerce-wishlist/integrations/woocommerce-product-addons.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/ti-woocommerce-wishlist/ti-woocommerce-wishlist.php on line 245
+
+2022-12-27T09:57:47+00:00 CRITICAL Uncaught Error: Class '\ElementorPro\Modules\Blockquote\Module' not found in /home/maniabest/public_html/wp-content/plugins/elementor-pro/core/modules-manager.php:75
+Stack trace:
+#0 /home/maniabest/public_html/wp-content/plugins/elementor-pro/plugin.php(358): ElementorPro\Core\Modules_Manager->__construct()
+#1 /home/maniabest/public_html/wp-includes/class-wp-hook.php(308): ElementorPro\Plugin->on_elementor_init('')
+#2 /home/maniabest/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 /home/maniabest/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/maniabest/public_html/wp-content/plugins/elementor/includes/plugin.php(652): do_action('elementor/init')
+#5 /home/maniabest/public_html/wp-includes/class-wp-hook.php(308): Elementor\Plugin->init('')
+#6 /home/maniabest/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /home/maniabest/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/maniabest/pu in /home/maniabest/public_html/wp-content/plugins/elementor-pro/core/modules-manager.php on line 75
+
+2022-12-27T09:58:48+00:00 CRITICAL require(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-middleware.asset.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Assets/Api.php on line 98
+
+2022-12-27T09:58:54+00:00 CRITICAL require_once(): Failed opening required '/home/maniabest/public_html/wp-content/themes/astra/inc/metabox/class-astra-meta-boxes.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/themes/astra/functions.php on line 116
+
+2022-12-27T09:58:54+00:00 CRITICAL require_once(): Failed opening required '/home/maniabest/public_html/wp-content/themes/astra/inc/lib/astra-notices/class-astra-notices.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/themes/astra/functions.php on line 110
+
+2022-12-27T09:59:02+00:00 CRITICAL require(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AllProducts.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+
+2022-12-27T09:59:23+00:00 CRITICAL require_once(): Failed opening required '/home/maniabest/public_html/wp-content/themes/astra/inc/compatibility/class-astra-jetpack.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/themes/astra/functions.php on line 134
+
+2022-12-27T10:19:48+00:00 CRITICAL require(): Failed opening required '/home/maniabest/public_html/wp-includes/blocks/navigation/view.min.asset.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-includes/blocks.php on line 150
+
+2022-12-27T10:19:48+00:00 CRITICAL require_once(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/elementskit-lite/widgets/init/enqueue-scripts.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/elementskit-lite/autoloader.php on line 55
+
+2022-12-27T10:19:52+00:00 CRITICAL require_once(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/ti-woocommerce-wishlist/admin/settings/style.class.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/ti-woocommerce-wishlist/ti-woocommerce-wishlist.php on line 199
+
+2022-12-27T10:19:52+00:00 CRITICAL require(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/wp-smush-pro/core/integrations/class-composer.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/wp-smush-pro/wp-smush.php on line 271
+
+2022-12-27T10:20:48+00:00 CRITICAL require(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CheckoutTermsBlock.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+
+2022-12-27T10:42:44+00:00 CRITICAL require_once(): Failed opening required '/home/maniabest/public_html/wp-content/themes/astra/inc/addons/breadcrumbs/class-astra-breadcrumbs-markup.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/themes/astra/inc/addons/breadcrumbs/class-astra-breadcrumbs.php on line 52
+
+2022-12-27T10:42:46+00:00 CRITICAL Uncaught Error: Class '\Elementor\ElementsKit_Widget_Header_Search_Handler' not found in /home/maniabest/public_html/wp-content/plugins/elementskit-lite/core/build-widgets.php:52
+Stack trace:
+#0 /home/maniabest/public_html/wp-content/plugins/elementskit-lite/core/build-widgets.php(27): ElementsKit_Lite\Core\Build_Widgets->add_widget(Array)
+#1 /home/maniabest/public_html/wp-content/plugins/elementskit-lite/traits/singleton.php(17): ElementsKit_Lite\Core\Build_Widgets->__construct()
+#2 /home/maniabest/public_html/wp-content/plugins/elementskit-lite/plugin.php(53): ElementsKit_Lite\Core\Build_Widgets::instance()
+#3 /home/maniabest/public_html/wp-content/plugins/elementskit-lite/plugin.php(401): ElementsKit_Lite\Plugin->__construct()
+#4 /home/maniabest/public_html/wp-content/plugins/elementskit-lite/elementskit-lite.php(349): ElementsKit_Lite\Plugin::instance()
+#5 /home/maniabest/public_html/wp-includes/class-wp-hook.php(308): ElementsKit_Lite->{closure}('')
+#6 /home/maniabest/public_html/wp-includes/class-wp-hoo in /home/maniabest/public_html/wp-content/plugins/elementskit-lite/core/build-widgets.php on line 52
+
+2022-12-27T10:49:53+00:00 CRITICAL require_once(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/ti-woocommerce-wishlist/integrations/sitepress-multilingual-cms.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/ti-woocommerce-wishlist/ti-woocommerce-wishlist.php on line 245
+
+2022-12-27T10:49:53+00:00 CRITICAL Uncaught Error: Class 'Yoast\WP\Duplicate_Post\Handlers\Check_Changes_Handler' not found in /home/maniabest/public_html/wp-content/plugins/duplicate-post/src/handlers/handler.php:69
+Stack trace:
+#0 /home/maniabest/public_html/wp-content/plugins/duplicate-post/src/duplicate-post.php(72): Yoast\WP\Duplicate_Post\Handlers\Handler->__construct(Object(Yoast\WP\Duplicate_Post\Post_Duplicator), Object(Yoast\WP\Duplicate_Post\Permissions_Helper))
+#1 /home/maniabest/public_html/wp-content/plugins/duplicate-post/duplicate-post.php(71): Yoast\WP\Duplicate_Post\Duplicate_Post->__construct()
+#2 /home/maniabest/public_html/wp-includes/class-wp-hook.php(308): __duplicate_post_main('')
+#3 /home/maniabest/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#4 /home/maniabest/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/maniabest/public_html/wp-settings.php(480): do_action('plugins_loaded')
+#6 /home/maniabest/public_html/wp-config.php(97): require_once('/home/mania in /home/maniabest/public_html/wp-content/plugins/duplicate-post/src/handlers/handler.php on line 69
+
+2022-12-27T10:49:53+00:00 CRITICAL require(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/wp-smush-pro/core/modules/class-abstract-module.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/wp-smush-pro/wp-smush.php on line 271
+
+2022-12-27T10:49:53+00:00 CRITICAL Uncaught Error: Class 'ActionScheduler_Store_Deprecated' not found in /home/maniabest/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Store.php:7
+Stack trace:
+#0 /home/maniabest/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler.php(122): include()
+#1 [internal function]: ActionScheduler::autoload('ActionScheduler...')
+#2 /home/maniabest/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler.php(25): spl_autoload_call('ActionScheduler...')
+#3 /home/maniabest/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler.php(145): ActionScheduler::store()
+#4 /home/maniabest/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/action-scheduler.php(55): ActionScheduler::init('/home/maniabest...')
+#5 /home/maniabest/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionSchedule in /home/maniabest/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Store.php on line 7
+
+2022-12-27T10:50:11+00:00 CRITICAL require_once(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/woocommerce/includes/integrations/maxmind-geolocation/class-wc-integration-maxmind-database-service.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/woocommerce/includes/integrations/maxmind-geolocation/class-wc-integration-maxmind-geolocation.php on line 11
+
+2022-12-27T10:53:17+00:00 CRITICAL require(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CheckoutOrderSummaryCouponFormBlock.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+
+2022-12-27T10:53:18+00:00 CRITICAL require(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/wp-smush-pro/app/class-ajax.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/wp-smush-pro/wp-smush.php on line 271
+
+2022-12-27T10:53:27+00:00 CRITICAL require(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CartOrderSummaryFeeBlock.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+
+2022-12-27T10:53:27+00:00 CRITICAL Uncaught Error: Class '\ElementorPro\Modules\Usage\Module' not found in /home/maniabest/public_html/wp-content/plugins/elementor-pro/core/modules-manager.php:75
+Stack trace:
+#0 /home/maniabest/public_html/wp-content/plugins/elementor-pro/plugin.php(358): ElementorPro\Core\Modules_Manager->__construct()
+#1 /home/maniabest/public_html/wp-includes/class-wp-hook.php(308): ElementorPro\Plugin->on_elementor_init('')
+#2 /home/maniabest/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 /home/maniabest/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/maniabest/public_html/wp-content/plugins/elementor/includes/plugin.php(652): do_action('elementor/init')
+#5 /home/maniabest/public_html/wp-includes/class-wp-hook.php(308): Elementor\Plugin->init('')
+#6 /home/maniabest/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /home/maniabest/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/maniabest/public_ in /home/maniabest/public_html/wp-content/plugins/elementor-pro/core/modules-manager.php on line 75
+
+2022-12-27T10:54:41+00:00 CRITICAL require_once(): Failed opening required '/home/maniabest/public_html/wp-content/themes/astra/inc/builder/type/header/social-icon/class-astra-header-social-icon-component-loader.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/themes/astra/inc/builder/type/header/social-icon/class-astra-header-social-icon-component.php on line 32
+
+2022-12-27T10:55:52+00:00 CRITICAL Uncaught Error: Class 'ActionScheduler_DBLogger' not found in /home/maniabest/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:16
+Stack trace:
+#0 /home/maniabest/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler.php(33): ActionScheduler_Logger::instance()
+#1 /home/maniabest/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler.php(146): ActionScheduler::logger()
+#2 /home/maniabest/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/action-scheduler.php(55): ActionScheduler::init('/home/maniabest...')
+#3 /home/maniabest/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_Versions.php(59): action_scheduler_initialize_3_dot_4_dot_0()
+#4 /home/maniabest/public_html/wp-includes/class-wp-hook.php(306): ActionScheduler_Versions::initialize_latest_version()
+#5 /home/maniabest/public_html/wp-inclu in /home/maniabest/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Logger.php on line 16
+
+2022-12-27T10:55:52+00:00 CRITICAL Uncaught Error: Class 'Wdr\App\Helpers\Language' not found in /home/maniabest/public_html/wp-content/plugins/woo-discount-rules/v2/App/Controllers/Base.php:31
+Stack trace:
+#0 /home/maniabest/public_html/wp-content/plugins/woo-discount-rules/v2/App/Controllers/Admin/Settings.php(28): Wdr\App\Controllers\Base->__construct()
+#1 /home/maniabest/public_html/wp-content/plugins/woo-discount-rules/v2/App/Router.php(28): Wdr\App\Controllers\Admin\Settings->__construct()
+#2 /home/maniabest/public_html/wp-content/plugins/woo-discount-rules/woo-discount-rules.php(179): Wdr\App\Router->__construct()
+#3 /home/maniabest/public_html/wp-includes/class-wp-hook.php(308): {closure}('')
+#4 /home/maniabest/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/maniabest/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/maniabest/public_html/wp-settings.php(480): do_action('plugins_loaded')
+#7 /home/maniabest/public_html/wp-config.php(97): require_once('/home/maniabest in /home/maniabest/public_html/wp-content/plugins/woo-discount-rules/v2/App/Controllers/Base.php on line 31
+
+2022-12-27T10:56:02+00:00 CRITICAL require(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/woocommerce/src/Admin/PluginsHelper.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+
+2022-12-27T10:58:36+00:00 CRITICAL require_once(): Failed opening required '/home/maniabest/public_html/wp-content/themes/astra/inc/builder/type/header/below-header/dynamic-css/dynamic.css.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/themes/astra/inc/builder/type/header/below-header/class-astra-below-header.php on line 36
+
+2022-12-27T11:00:27+00:00 CRITICAL require_once(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/yith-color-and-label-variations-for-woocommerce/plugin-fw/includes/class-yit-metabox.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/yith-color-and-label-variations-for-woocommerce/plugin-fw/yit-plugin.php on line 19
+
+2022-12-27T11:00:27+00:00 CRITICAL require_once(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/ti-woocommerce-wishlist/integrations/woocommerce-product-bundles.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/ti-woocommerce-wishlist/ti-woocommerce-wishlist.php on line 245
+
+2022-12-27T11:00:30+00:00 CRITICAL Uncaught Error: Class 'ElementorPro\Modules\Forms\Actions\Drip' not found in /home/maniabest/public_html/wp-content/plugins/elementor-pro/modules/forms/registrars/form-actions-registrar.php:42
+Stack trace:
+#0 /home/maniabest/public_html/wp-includes/class-wp-hook.php(308): ElementorPro\Modules\Forms\Registrars\Form_Actions_Registrar->ElementorPro\Modules\Forms\Registrars\{closure}(Object(ElementorPro\Modules\Forms\Registrars\Form_Actions_Registrar))
+#1 /home/maniabest/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /home/maniabest/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/maniabest/public_html/wp-content/plugins/elementor-pro/modules/forms/registrars/form-actions-registrar.php(74): do_action('elementor_pro/f...', Object(ElementorPro\Modules\Forms\Registrars\Form_Actions_Registrar))
+#4 /home/maniabest/public_html/wp-content/plugins/elementor-pro/modules/forms/registrars/form-actions-registrar.php(26): ElementorPro\Modules\Forms\Registrars\ in /home/maniabest/public_html/wp-content/plugins/elementor-pro/modules/forms/registrars/form-actions-registrar.php on line 42
+
+2022-12-27T11:20:42+00:00 CRITICAL require_once(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/woocommerce/includes/react-admin/core-functions.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/FeaturePlugin.php on line 77
+
+2022-12-27T11:20:42+00:00 CRITICAL require(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Utils/BlockTemplateUtils.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+
+2022-12-27T11:20:45+00:00 CRITICAL Uncaught Error: Class '\Elementor\ElementsKit_Widget_Testimonial_Handler' not found in /home/maniabest/public_html/wp-content/plugins/elementskit-lite/core/build-widgets.php:52
+Stack trace:
+#0 /home/maniabest/public_html/wp-content/plugins/elementskit-lite/core/build-widgets.php(27): ElementsKit_Lite\Core\Build_Widgets->add_widget(Array)
+#1 /home/maniabest/public_html/wp-content/plugins/elementskit-lite/traits/singleton.php(17): ElementsKit_Lite\Core\Build_Widgets->__construct()
+#2 /home/maniabest/public_html/wp-content/plugins/elementskit-lite/plugin.php(53): ElementsKit_Lite\Core\Build_Widgets::instance()
+#3 /home/maniabest/public_html/wp-content/plugins/elementskit-lite/plugin.php(401): ElementsKit_Lite\Plugin->__construct()
+#4 /home/maniabest/public_html/wp-content/plugins/elementskit-lite/elementskit-lite.php(349): ElementsKit_Lite\Plugin::instance()
+#5 /home/maniabest/public_html/wp-includes/class-wp-hook.php(308): ElementsKit_Lite->{closure}('')
+#6 /home/maniabest/public_html/wp-includes/class-wp-hook. in /home/maniabest/public_html/wp-content/plugins/elementskit-lite/core/build-widgets.php on line 52
+
+2022-12-27T12:11:52+00:00 CRITICAL require_once(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/elementskit-lite/modules/megamenu/options.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/elementskit-lite/autoloader.php on line 55
+
+2022-12-27T12:14:22+00:00 CRITICAL require(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CheckoutExpressPaymentBlock.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+
+2022-12-27T12:21:26+00:00 CRITICAL require_once(): Failed opening required '/home/maniabest/public_html/wp-content/themes/astra/inc/builder/type/footer/below-footer/class-astra-below-footer.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php on line 290
+
+2022-12-27T12:22:09+00:00 CRITICAL require_once(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/elementskit-lite/libs/pro-label/admin-notice.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/elementskit-lite/autoloader.php on line 55
+
+2022-12-27T12:22:09+00:00 CRITICAL require_once(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/elementskit-lite/libs/pro-label/admin-notice.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/elementskit-lite/autoloader.php on line 55
+
+2022-12-27T12:22:30+00:00 CRITICAL require(): Failed opening required '/home/maniabest/public_html/wp-includes/blocks/navigation/view.min.asset.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-includes/blocks.php on line 150
+
+2022-12-27T12:22:33+00:00 CRITICAL require_once(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/astra-addon/addons/woocommerce/classes/class-astra-ext-woocommerce-loader.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/astra-addon/addons/woocommerce/class-astra-ext-woocommerce.php on line 50
+
+2022-12-27T12:22:48+00:00 CRITICAL require(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CheckoutContactInformationBlock.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+
+2022-12-27T12:23:06+00:00 CRITICAL require_once(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/astra-addon/classes/builder/type/header/button/dynamic-css/dynamic.css.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/astra-addon/classes/builder/type/header/button/class-astra-addon-header-button-component.php on line 37
+
+2022-12-27T12:23:20+00:00 CRITICAL require(): Failed opening required '/home/maniabest/public_html/wp-includes/blocks/navigation/view.min.asset.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-includes/blocks.php on line 150
+
+2022-12-27T12:23:20+00:00 CRITICAL require_once(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/wp-smush-pro/core/external/dash-notice/wpmudev-dash-notification.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/wp-smush-pro/wp-smush.php on line 430
+
+2022-12-27T12:23:38+00:00 CRITICAL require(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Tasks/TourInAppMarketplace.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+
+2022-12-27T12:23:38+00:00 CRITICAL Uncaught Error: Class 'ElementorPro\Modules\QueryControl\Controls\Group_Control_Related' not found in /home/maniabest/public_html/wp-content/plugins/elementor-pro/modules/query-control/module.php:831
+Stack trace:
+#0 /home/maniabest/public_html/wp-includes/class-wp-hook.php(308): ElementorPro\Modules\QueryControl\Module->register_controls(Object(Elementor\Controls_Manager))
+#1 /home/maniabest/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /home/maniabest/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/maniabest/public_html/wp-content/plugins/elementor/includes/managers/controls.php(476): do_action('elementor/contr...', Object(Elementor\Controls_Manager))
+#4 /home/maniabest/public_html/wp-content/plugins/elementor/includes/managers/controls.php(589): Elementor\Controls_Manager->register_controls()
+#5 /home/maniabest/public_html/wp-content/plugins/elementor/includes/managers/controls.php(608): Elementor\Controls_Manager->get_controls()
+#6 /home/ in /home/maniabest/public_html/wp-content/plugins/elementor-pro/modules/query-control/module.php on line 831
+
+2022-12-27T12:24:16+00:00 CRITICAL require(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CheckoutOrderSummaryTaxesBlock.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+
+2022-12-27T12:24:21+00:00 CRITICAL require_once(): Failed opening required '/home/maniabest/public_html/wp-content/themes/astra/inc/core/class-gutenberg-editor-css.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/themes/astra/functions.php on line 60
+
+2022-12-27T12:24:21+00:00 CRITICAL require_once(): Failed opening required '/home/maniabest/public_html/wp-content/themes/astra/inc/core/class-gutenberg-editor-css.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/themes/astra/functions.php on line 60
+
+2022-12-27T12:24:33+00:00 CRITICAL Uncaught Error: Class 'ElementorPro\Modules\ThemeBuilder\Documents\Archive' not found in /home/maniabest/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/templates-types-manager.php:42
+Stack trace:
+#0 /home/maniabest/public_html/wp-includes/class-wp-hook.php(308): ElementorPro\Modules\ThemeBuilder\Classes\Templates_Types_Manager->register_documents(Object(Elementor\Core\Documents_Manager))
+#1 /home/maniabest/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /home/maniabest/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/maniabest/public_html/wp-content/plugins/elementor/core/documents-manager.php(692): do_action('elementor/docum...', Object(Elementor\Core\Documents_Manager))
+#4 /home/maniabest/public_html/wp-content/plugins/elementor/core/documents-manager.php(314): Elementor\Core\Documents_Manager->register_types()
+#5 /home/maniabest/public_html/wp-content/plugins/elementor/includes/template-library/data/endpoints/temp in /home/maniabest/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/templates-types-manager.php on line 42
+
+2022-12-27T12:24:52+00:00 CRITICAL Uncaught Error: Class '\Elementor\ElementsKit_Widget_Funfact_Handler' not found in /home/maniabest/public_html/wp-content/plugins/elementskit-lite/core/build-widgets.php:52
+Stack trace:
+#0 /home/maniabest/public_html/wp-content/plugins/elementskit-lite/core/build-widgets.php(27): ElementsKit_Lite\Core\Build_Widgets->add_widget(Array)
+#1 /home/maniabest/public_html/wp-content/plugins/elementskit-lite/traits/singleton.php(17): ElementsKit_Lite\Core\Build_Widgets->__construct()
+#2 /home/maniabest/public_html/wp-content/plugins/elementskit-lite/plugin.php(53): ElementsKit_Lite\Core\Build_Widgets::instance()
+#3 /home/maniabest/public_html/wp-content/plugins/elementskit-lite/plugin.php(401): ElementsKit_Lite\Plugin->__construct()
+#4 /home/maniabest/public_html/wp-content/plugins/elementskit-lite/elementskit-lite.php(349): ElementsKit_Lite\Plugin::instance()
+#5 /home/maniabest/public_html/wp-includes/class-wp-hook.php(308): ElementsKit_Lite->{closure}('')
+#6 /home/maniabest/public_html/wp-includes/class-wp-hook.php( in /home/maniabest/public_html/wp-content/plugins/elementskit-lite/core/build-widgets.php on line 52
+
+2022-12-27T12:24:52+00:00 CRITICAL Uncaught Error: Class 'ElementorPro\Modules\Notes\User\Delete_User' not found in /home/maniabest/public_html/wp-content/plugins/elementor-pro/modules/notes/module.php:203
+Stack trace:
+#0 /home/maniabest/public_html/wp-content/plugins/elementor/core/base/module.php(85): ElementorPro\Modules\Notes\Module->__construct()
+#1 /home/maniabest/public_html/wp-content/plugins/elementor-pro/core/modules-manager.php(86): Elementor\Core\Base\Module::instance()
+#2 /home/maniabest/public_html/wp-content/plugins/elementor-pro/plugin.php(358): ElementorPro\Core\Modules_Manager->__construct()
+#3 /home/maniabest/public_html/wp-includes/class-wp-hook.php(308): ElementorPro\Plugin->on_elementor_init('')
+#4 /home/maniabest/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 /home/maniabest/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/maniabest/public_html/wp-content/plugins/elementor/includes/plugin.php(652): do_action('elementor/init')
+#7 /home/maniabest/public_html/ in /home/maniabest/public_html/wp-content/plugins/elementor-pro/modules/notes/module.php on line 203
+
+2022-12-27T12:25:06+00:00 CRITICAL require_once(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/ti-woocommerce-wishlist/integrations/woocommerce-composite-products.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/ti-woocommerce-wishlist/ti-woocommerce-wishlist.php on line 245
+
+2022-12-27T12:25:06+00:00 CRITICAL Uncaught Error: Class 'Yoast\WP\Duplicate_Post\UI\Block_Editor' not found in /home/maniabest/public_html/wp-content/plugins/duplicate-post/src/ui/user-interface.php:108
+Stack trace:
+#0 /home/maniabest/public_html/wp-content/plugins/duplicate-post/src/duplicate-post.php(70): Yoast\WP\Duplicate_Post\UI\User_Interface->__construct(Object(Yoast\WP\Duplicate_Post\Permissions_Helper))
+#1 /home/maniabest/public_html/wp-content/plugins/duplicate-post/duplicate-post.php(71): Yoast\WP\Duplicate_Post\Duplicate_Post->__construct()
+#2 /home/maniabest/public_html/wp-includes/class-wp-hook.php(308): __duplicate_post_main('')
+#3 /home/maniabest/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#4 /home/maniabest/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/maniabest/public_html/wp-settings.php(480): do_action('plugins_loaded')
+#6 /home/maniabest/public_html/wp-config.php(97): require_once('/home/maniabest...')
+#7 /home/maniabest/public_html/wp-load.php(50): req in /home/maniabest/public_html/wp-content/plugins/duplicate-post/src/ui/user-interface.php on line 108
+
+2022-12-27T12:25:10+00:00 CRITICAL require(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/elementor//includes/controls/tab.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/elementor/includes/autoloader.php on line 294
+
+2022-12-27T12:25:26+00:00 CRITICAL Uncaught Error: Class 'ElementorPro\Modules\ThemeBuilder\Classes\Templates_Types_Manager' not found in /home/maniabest/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/module.php:434
+Stack trace:
+#0 /home/maniabest/public_html/wp-content/plugins/elementor/core/base/module.php(85): ElementorPro\Modules\ThemeBuilder\Module->__construct()
+#1 /home/maniabest/public_html/wp-content/plugins/elementor-pro/core/modules-manager.php(86): Elementor\Core\Base\Module::instance()
+#2 /home/maniabest/public_html/wp-content/plugins/elementor-pro/plugin.php(358): ElementorPro\Core\Modules_Manager->__construct()
+#3 /home/maniabest/public_html/wp-includes/class-wp-hook.php(308): ElementorPro\Plugin->on_elementor_init('')
+#4 /home/maniabest/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 /home/maniabest/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/maniabest/public_html/wp-content/plugins/elementor/includes/plugin.php(652): do_action('elementor/i in /home/maniabest/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/module.php on line 434
+
+2022-12-27T12:25:47+00:00 CRITICAL require_once(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/astra-addon/admin/bsf-analytics/class-bsf-analytics.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/astra-addon/admin/bsf-analytics/class-bsf-analytics-loader.php on line 113
+
+2022-12-27T12:25:47+00:00 CRITICAL require_once(): Failed opening required '/home/maniabest/public_html/wp-content/themes/astra/inc/builder/type/header/primary-header/class-astra-primary-header-loader.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/themes/astra/inc/builder/type/header/primary-header/class-astra-primary-header.php on line 31
+
+2022-12-27T12:26:22+00:00 CRITICAL require(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-best-sellers.asset.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Assets/Api.php on line 98
+
+2022-12-27T12:26:22+00:00 CRITICAL require(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version2/class-wc-rest-system-status-v2-controller.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+
+2022-12-27T12:26:22+00:00 CRITICAL Uncaught Error: Class 'ElementorPro\Modules\Forms\Actions\Mailchimp' not found in /home/maniabest/public_html/wp-content/plugins/elementor-pro/modules/forms/registrars/form-actions-registrar.php:41
+Stack trace:
+#0 /home/maniabest/public_html/wp-includes/class-wp-hook.php(308): ElementorPro\Modules\Forms\Registrars\Form_Actions_Registrar->ElementorPro\Modules\Forms\Registrars\{closure}(Object(ElementorPro\Modules\Forms\Registrars\Form_Actions_Registrar))
+#1 /home/maniabest/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /home/maniabest/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/maniabest/public_html/wp-content/plugins/elementor-pro/modules/forms/registrars/form-actions-registrar.php(74): do_action('elementor_pro/f...', Object(ElementorPro\Modules\Forms\Registrars\Form_Actions_Registrar))
+#4 /home/maniabest/public_html/wp-content/plugins/elementor-pro/modules/forms/registrars/form-actions-registrar.php(26): ElementorPro\Modules\Forms\Regist in /home/maniabest/public_html/wp-content/plugins/elementor-pro/modules/forms/registrars/form-actions-registrar.php on line 41
+
+2022-12-27T12:26:51+00:00 CRITICAL require(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-new.asset.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Assets/Api.php on line 98
+
+2022-12-27T12:26:51+00:00 CRITICAL require(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-coupons-v1-controller.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+
+2022-12-27T12:26:51+00:00 CRITICAL require(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-new.asset.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Assets/Api.php on line 98
+
+2022-12-27T12:27:11+00:00 CRITICAL require(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/elementor/modules/shapes/module.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/elementor/includes/autoloader.php on line 294
+
+2022-12-27T12:28:06+00:00 CRITICAL require(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/elementor/core/common/modules/connect/apps/connect.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/elementor/includes/autoloader.php on line 294
+
+2022-12-27T12:40:47+00:00 CRITICAL require(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/wp-smush-pro/core/modules/class-product-analytics.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/wp-smush-pro/wp-smush.php on line 271
+
+2022-12-27T12:41:37+00:00 CRITICAL require_once(): Failed opening required '/home/maniabest/public_html/wp-content/themes/astra/inc/compatibility/lifterlms/class-astra-lifterlms.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/themes/astra/functions.php on line 137
+
+2022-12-27T12:41:39+00:00 CRITICAL require(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version2/class-wc-rest-setting-options-v2-controller.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+
+2022-12-27T12:42:07+00:00 CRITICAL require_once(): Failed opening required '/home/maniabest/public_html/wp-content/themes/astra/inc/builder/markup/class-astra-builder-header.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/themes/astra/inc/builder/class-astra-builder-loader.php on line 58
+
+2022-12-27T12:42:07+00:00 CRITICAL require_once(): Failed opening required '/home/maniabest/public_html/wp-content/themes/astra/inc/builder/markup/class-astra-builder-header.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/themes/astra/inc/builder/class-astra-builder-loader.php on line 58
+
+2022-12-27T12:42:07+00:00 CRITICAL Uncaught Error: Class 'ElementorPro\Core\Modules_Manager' not found in /home/maniabest/public_html/wp-content/plugins/elementor-pro/plugin.php:358
+Stack trace:
+#0 /home/maniabest/public_html/wp-includes/class-wp-hook.php(308): ElementorPro\Plugin->on_elementor_init('')
+#1 /home/maniabest/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 /home/maniabest/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/maniabest/public_html/wp-content/plugins/elementor/includes/plugin.php(652): do_action('elementor/init')
+#4 /home/maniabest/public_html/wp-includes/class-wp-hook.php(308): Elementor\Plugin->init('')
+#5 /home/maniabest/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /home/maniabest/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/maniabest/public_html/wp-settings.php(617): do_action('init')
+#8 /home/maniabest/public_html/wp-config.php(97): require_once('/home/maniabest...')
+#9 /home/mania in /home/maniabest/public_html/wp-content/plugins/elementor-pro/plugin.php on line 358
+
+2022-12-27T12:42:07+00:00 CRITICAL Uncaught Error: Class '\ElementorPro\Modules\Forms\Module' not found in /home/maniabest/public_html/wp-content/plugins/elementor-pro/core/modules-manager.php:75
+Stack trace:
+#0 /home/maniabest/public_html/wp-content/plugins/elementor-pro/plugin.php(358): ElementorPro\Core\Modules_Manager->__construct()
+#1 /home/maniabest/public_html/wp-includes/class-wp-hook.php(308): ElementorPro\Plugin->on_elementor_init('')
+#2 /home/maniabest/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 /home/maniabest/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/maniabest/public_html/wp-content/plugins/elementor/includes/plugin.php(652): do_action('elementor/init')
+#5 /home/maniabest/public_html/wp-includes/class-wp-hook.php(308): Elementor\Plugin->init('')
+#6 /home/maniabest/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /home/maniabest/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/maniabest/public_ in /home/maniabest/public_html/wp-content/plugins/elementor-pro/core/modules-manager.php on line 75
+
+2022-12-27T12:42:07+00:00 CRITICAL require_once(): Failed opening required '/home/maniabest/public_html/wp-content/themes/astra/inc/builder/markup/class-astra-builder-header.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/themes/astra/inc/builder/class-astra-builder-loader.php on line 58
+
+2022-12-27T13:27:24+00:00 CRITICAL require(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/woocommerce/src/Admin/API/Products.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+
+2022-12-27T13:37:04+00:00 CRITICAL require(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/elementor/includes/elements/column.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/elementor/includes/managers/elements.php on line 356
+
+2022-12-27T13:37:07+00:00 CRITICAL require_once(): Failed opening required '/home/maniabest/public_html/wp-includes/widgets/class-wp-widget-rss.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-includes/default-widgets.php on line 56
+
+2022-12-27T13:37:07+00:00 CRITICAL require_once(): Failed opening required '/home/maniabest/public_html/wp-includes/widgets/class-wp-widget-rss.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-includes/default-widgets.php on line 56
+
+2022-12-27T13:39:42+00:00 CRITICAL require_once(): Failed opening required '/home/maniabest/public_html/wp-content/themes/astra/inc/builder/type/footer/primary-footer/class-astra-primary-footer.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php on line 297
+
+2022-12-27T13:39:42+00:00 CRITICAL require_once(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/astra-addon/classes/builder/class-astra-addon-builder-customizer.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/astra-addon/classes/class-astra-addon-builder-loader.php on line 67
+
+2022-12-27T13:41:30+00:00 CRITICAL Uncaught Error: Class '\Elementor\ElementsKit_Widget_Page_List_Handler' not found in /home/maniabest/public_html/wp-content/plugins/elementskit-lite/core/build-widgets.php:52
+Stack trace:
+#0 /home/maniabest/public_html/wp-content/plugins/elementskit-lite/core/build-widgets.php(27): ElementsKit_Lite\Core\Build_Widgets->add_widget(Array)
+#1 /home/maniabest/public_html/wp-content/plugins/elementskit-lite/traits/singleton.php(17): ElementsKit_Lite\Core\Build_Widgets->__construct()
+#2 /home/maniabest/public_html/wp-content/plugins/elementskit-lite/plugin.php(53): ElementsKit_Lite\Core\Build_Widgets::instance()
+#3 /home/maniabest/public_html/wp-content/plugins/elementskit-lite/plugin.php(401): ElementsKit_Lite\Plugin->__construct()
+#4 /home/maniabest/public_html/wp-content/plugins/elementskit-lite/elementskit-lite.php(349): ElementsKit_Lite\Plugin::instance()
+#5 /home/maniabest/public_html/wp-includes/class-wp-hook.php(308): ElementsKit_Lite->{closure}('')
+#6 /home/maniabest/public_html/wp-includes/class-wp-hook.ph in /home/maniabest/public_html/wp-content/plugins/elementskit-lite/core/build-widgets.php on line 52
+
+2022-12-27T13:41:30+00:00 CRITICAL Uncaught Error: Class '\ElementorPro\Modules\AdminTopBar\Module' not found in /home/maniabest/public_html/wp-content/plugins/elementor-pro/core/modules-manager.php:75
+Stack trace:
+#0 /home/maniabest/public_html/wp-content/plugins/elementor-pro/plugin.php(358): ElementorPro\Core\Modules_Manager->__construct()
+#1 /home/maniabest/public_html/wp-includes/class-wp-hook.php(308): ElementorPro\Plugin->on_elementor_init('')
+#2 /home/maniabest/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 /home/maniabest/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/maniabest/public_html/wp-content/plugins/elementor/includes/plugin.php(652): do_action('elementor/init')
+#5 /home/maniabest/public_html/wp-includes/class-wp-hook.php(308): Elementor\Plugin->init('')
+#6 /home/maniabest/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /home/maniabest/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/maniabest/p in /home/maniabest/public_html/wp-content/plugins/elementor-pro/core/modules-manager.php on line 75
+
+2022-12-27T13:43:42+00:00 CRITICAL Uncaught Error: Class 'ElementorPro\Modules\Social\Classes\Facebook_SDK_Manager' not found in /home/maniabest/public_html/wp-content/plugins/elementor-pro/modules/social/module.php:33
+Stack trace:
+#0 /home/maniabest/public_html/wp-content/plugins/elementor/core/base/module.php(85): ElementorPro\Modules\Social\Module->__construct()
+#1 /home/maniabest/public_html/wp-content/plugins/elementor-pro/core/modules-manager.php(86): Elementor\Core\Base\Module::instance()
+#2 /home/maniabest/public_html/wp-content/plugins/elementor-pro/plugin.php(358): ElementorPro\Core\Modules_Manager->__construct()
+#3 /home/maniabest/public_html/wp-includes/class-wp-hook.php(308): ElementorPro\Plugin->on_elementor_init('')
+#4 /home/maniabest/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 /home/maniabest/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/maniabest/public_html/wp-content/plugins/elementor/includes/plugin.php(652): do_action('elementor/init')
+#7 /home/maniabes in /home/maniabest/public_html/wp-content/plugins/elementor-pro/modules/social/module.php on line 33
+
+2022-12-27T13:43:42+00:00 CRITICAL Uncaught Error: Class '\ElementorPro\Modules\QueryControl\Module' not found in /home/maniabest/public_html/wp-content/plugins/elementor-pro/core/modules-manager.php:75
+Stack trace:
+#0 /home/maniabest/public_html/wp-content/plugins/elementor-pro/plugin.php(358): ElementorPro\Core\Modules_Manager->__construct()
+#1 /home/maniabest/public_html/wp-includes/class-wp-hook.php(308): ElementorPro\Plugin->on_elementor_init('')
+#2 /home/maniabest/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 /home/maniabest/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/maniabest/public_html/wp-content/plugins/elementor/includes/plugin.php(652): do_action('elementor/init')
+#5 /home/maniabest/public_html/wp-includes/class-wp-hook.php(308): Elementor\Plugin->init('')
+#6 /home/maniabest/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /home/maniabest/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/maniabest/ in /home/maniabest/public_html/wp-content/plugins/elementor-pro/core/modules-manager.php on line 75
+
+2022-12-27T13:43:42+00:00 CRITICAL Uncaught Error: Class 'ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager' not found in /home/maniabest/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/module.php:433
+Stack trace:
+#0 /home/maniabest/public_html/wp-content/plugins/elementor/core/base/module.php(85): ElementorPro\Modules\ThemeBuilder\Module->__construct()
+#1 /home/maniabest/public_html/wp-content/plugins/elementor-pro/core/modules-manager.php(86): Elementor\Core\Base\Module::instance()
+#2 /home/maniabest/public_html/wp-content/plugins/elementor-pro/plugin.php(358): ElementorPro\Core\Modules_Manager->__construct()
+#3 /home/maniabest/public_html/wp-includes/class-wp-hook.php(308): ElementorPro\Plugin->on_elementor_init('')
+#4 /home/maniabest/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 /home/maniabest/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/maniabest/public_html/wp-content/plugins/elementor/includes/plugin.php(652): do_action('elementor/init') in /home/maniabest/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/module.php on line 433
+
+2022-12-27T13:44:36+00:00 CRITICAL require(): Failed opening required '/home/maniabest/public_html/wp-includes/blocks/navigation/view.min.asset.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-includes/blocks.php on line 150
+
+2022-12-27T13:44:36+00:00 CRITICAL require(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/elementor//includes/controls/icon.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/elementor/includes/autoloader.php on line 294
+
+2022-12-27T13:48:34+00:00 CRITICAL require(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/price-filter-frontend.asset.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Assets/Api.php on line 98
+
+2022-12-27T13:49:18+00:00 CRITICAL Uncaught Error: Class 'ElementorPro\Modules\Forms\Actions\Getresponse' not found in /home/maniabest/public_html/wp-content/plugins/elementor-pro/modules/forms/registrars/form-actions-registrar.php:44
+Stack trace:
+#0 /home/maniabest/public_html/wp-includes/class-wp-hook.php(308): ElementorPro\Modules\Forms\Registrars\Form_Actions_Registrar->ElementorPro\Modules\Forms\Registrars\{closure}(Object(ElementorPro\Modules\Forms\Registrars\Form_Actions_Registrar))
+#1 /home/maniabest/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /home/maniabest/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/maniabest/public_html/wp-content/plugins/elementor-pro/modules/forms/registrars/form-actions-registrar.php(74): do_action('elementor_pro/f...', Object(ElementorPro\Modules\Forms\Registrars\Form_Actions_Registrar))
+#4 /home/maniabest/public_html/wp-content/plugins/elementor-pro/modules/forms/registrars/form-actions-registrar.php(26): ElementorPro\Modules\Forms\Regi in /home/maniabest/public_html/wp-content/plugins/elementor-pro/modules/forms/registrars/form-actions-registrar.php on line 44
+
+2022-12-27T13:51:08+00:00 CRITICAL require(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/wp-smush-pro/core/integrations/class-composer.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/wp-smush-pro/wp-smush.php on line 271
+
+2022-12-27T13:51:08+00:00 CRITICAL require(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/elementor/modules/library/documents/page.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/elementor/includes/autoloader.php on line 294
+
+2022-12-27T13:52:27+00:00 CRITICAL require_once(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/astra-addon/classes/builder/type/footer/divider/classes/class-astra-footer-divider-component-loader.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/astra-addon/classes/builder/type/footer/divider/class-astra-footer-divider-component.php on line 35
+
+2022-12-27T13:52:27+00:00 CRITICAL require(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/elementor/includes/elements/column.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/elementor/includes/managers/elements.php on line 356
+
+2022-12-27T13:53:25+00:00 CRITICAL require_once(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/ti-woocommerce-wishlist/includes/product/legacy.class.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/ti-woocommerce-wishlist/ti-woocommerce-wishlist.php on line 199
+
+2022-12-27T13:55:24+00:00 CRITICAL Uncaught Error: Class 'ElementorPro\Core\Database\Base_Database_Updater' not found in /home/maniabest/public_html/wp-content/plugins/elementor-pro/modules/notes/database/notes-database-updater.php:15
+Stack trace:
+#0 /home/maniabest/public_html/wp-content/plugins/elementor-pro/plugin.php(154): include()
+#1 [internal function]: ElementorPro\Plugin->autoload('ElementorPro\\Mo...')
+#2 /home/maniabest/public_html/wp-content/plugins/elementor-pro/modules/notes/module.php(205): spl_autoload_call('ElementorPro\\Mo...')
+#3 /home/maniabest/public_html/wp-content/plugins/elementor/core/base/module.php(85): ElementorPro\Modules\Notes\Module->__construct()
+#4 /home/maniabest/public_html/wp-content/plugins/elementor-pro/core/modules-manager.php(86): Elementor\Core\Base\Module::instance()
+#5 /home/maniabest/public_html/wp-content/plugins/elementor-pro/plugin.php(358): ElementorPro\Core\Modules_Manager->__construct()
+#6 /home/maniabest/public_html/wp-includes/class-wp-hook.php(308): ElementorPro\Plugin->on_elementor_init('') in /home/maniabest/public_html/wp-content/plugins/elementor-pro/modules/notes/database/notes-database-updater.php on line 15
+
+2022-12-27T13:55:24+00:00 CRITICAL Uncaught Error: Class 'ElementorPro\Modules\Notes\Admin_Bar' not found in /home/maniabest/public_html/wp-content/plugins/elementor-pro/modules/notes/module.php:206
+Stack trace:
+#0 /home/maniabest/public_html/wp-content/plugins/elementor/core/base/module.php(85): ElementorPro\Modules\Notes\Module->__construct()
+#1 /home/maniabest/public_html/wp-content/plugins/elementor-pro/core/modules-manager.php(86): Elementor\Core\Base\Module::instance()
+#2 /home/maniabest/public_html/wp-content/plugins/elementor-pro/plugin.php(358): ElementorPro\Core\Modules_Manager->__construct()
+#3 /home/maniabest/public_html/wp-includes/class-wp-hook.php(308): ElementorPro\Plugin->on_elementor_init('')
+#4 /home/maniabest/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 /home/maniabest/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/maniabest/public_html/wp-content/plugins/elementor/includes/plugin.php(652): do_action('elementor/init')
+#7 /home/maniabest/public_html/wp-incl in /home/maniabest/public_html/wp-content/plugins/elementor-pro/modules/notes/module.php on line 206
+
+2022-12-27T13:58:46+00:00 CRITICAL require_once(): Failed opening required '/home/maniabest/public_html/wp-content/themes/astra/inc/dynamic-css/global-color-palette.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/themes/astra/inc/class-astra-global-palette.php on line 207
+
+2022-12-27T13:58:46+00:00 CRITICAL require_once(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/astra-addon/classes/builder/type/base/controllers/class-astra-addon-builder-ui-controller.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/astra-addon/classes/class-astra-addon-builder-loader.php on line 63
+
+2022-12-27T13:59:44+00:00 CRITICAL Uncaught Error: Class '\ElementorPro\Modules\ThemeBuilder\Conditions\By_author' not found in /home/maniabest/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php:182
+Stack trace:
+#0 /home/maniabest/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(193): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->register_condition('by_author', Array)
+#1 /home/maniabest/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(193): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->register_condition('by_author', Array)
+#2 /home/maniabest/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(264): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->register_condition('singular')
+#3 /home/maniabest/public_html/wp-includes/class-wp-hook.php(308): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->registe in /home/maniabest/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php on line 182
+
+2022-12-27T13:59:44+00:00 CRITICAL Uncaught Error: Class '\ElementorPro\Modules\ThemeBuilder\Conditions\By_author' not found in /home/maniabest/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php:182
+Stack trace:
+#0 /home/maniabest/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(193): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->register_condition('by_author', Array)
+#1 /home/maniabest/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(193): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->register_condition('by_author', Array)
+#2 /home/maniabest/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(264): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->register_condition('singular')
+#3 /home/maniabest/public_html/wp-includes/class-wp-hook.php(308): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->registe in /home/maniabest/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php on line 182
+
+2022-12-27T19:43:52+00:00 CRITICAL require_once(): Failed opening required '/home/maniabest/public_html/wp-content/plugins/elementskit-lite/core/build-inline-scripts.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/maniabest/public_html/wp-content/plugins/elementskit-lite/autoloader.php on line 55
+

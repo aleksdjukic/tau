@@ -1,0 +1,146 @@
+*** Product Designer for WooCommerce ***
+2022-11-16 - version 4.3
+ * New   - Custom fonts support for Text customization
+ * Tweak - Tested with WordPress 6.1.1
+ * Tweak - Tested with WooCommerce 7.1
+ * Tweak - Updated POT File
+ 
+2022-10-21 - version 4.2
+ * Tweak - Tested with WordPress 6.0.3
+ * Tweak - Tested with WooCommerce 7.0.0
+ * Tweak - Updated POT File
+ * Fix   - Attributes not displaying in Background Segmentation
+ * Fix   - Text not shrink properly inside design area
+
+2022-09-13 - version 4.1
+ * Tweak - Editing Tools Menu display improvements for Mobile Responsiveness
+ * Tweak - Tested with WooCommerce 6.8.2
+ * Tweak - Tested with WordPress 6.0.2
+ * Fix   - Filters not working on Mobile Devices
+
+2022-08-27 - version 4.0
+ * New	 - Mobile Responsiveness
+ * Tweak - Tested with WooCommerce 6.8.1
+
+2022-07-26 - version 3.2
+ * Tweak - Indexed DB support for storing temporary data
+ * Tweak - Tested with WordPress 6.0.1
+ * Tweak - Tested with WooCommerce 6.7.0
+
+2022-06-15 - version 3.1
+ * Tweak - Performance improvements
+ * Fix   - User selected Product Base replaced with incorrect one while using Templates
+ * Fix   - Unable to edit each object in the Template
+
+2022-06-06 - version 3.0
+ * New   - Brightness, Contrast, Saturation control for Images, Cliparts, Shapes
+ * Tweak - Code improvements on thumbnail in cart page
+ * Tweak - Tested with WordPress 6.0
+
+2022-05-20 - version 2.9
+ * New   - Apply Filters for Images, Cliparts, Shapes
+ * Tweak - Tested with WooCommerce 6.5.1
+ * Fix   - Designing applied outside selection area
+
+2022-05-11 - version 2.8
+ * New   - Option to allow specific font families for Text customizing
+ * Tweak - Text Customization can be applied for whole object
+ * Tweak - Tested with WooCommerce 6.5.0
+
+2022-04-20 - version 2.7
+ * New   - Option to hide price tag in designer page when price is set as 0
+ * Tweak - Tested with WordPress 5.9.3
+ * Tweak - Tested with WooCommerce 6.4.1
+ 
+2022-04-06 - version 2.6
+ * Tweak - Improvements in Download Image quality
+ * Tweak - Tested with WordPress 5.9.2
+ * Tweak - Tested with WooCommerce 6.3.1
+ * Fix   - Aspect Ratio Image Export
+
+2022-03-03 - version 2.5
+ * New   - Undo and Redo interactive buttons added
+ * Tweak - Improvements in Download image quality
+ * Tweak - Tested with WordPress 5.9.1
+ * Tweak - Tested with WooCommerce 6.2.1
+ * Fix   - Undo/Redo keyboard shortcuts not working on Font styles
+
+
+2022-01-22 - version 2.4
+ * New   - Supported undo and redo functionality using Ctrl+Z and Ctrl+Y keyboard shortcuts
+ * Tweak - Tested with WooCommerce V6.1.0
+ * Tweak - Tested with WordPress V5.8.3
+
+2021-12-27 - version 2.3
+ * New   - Option to hide product description in Designer page
+ * Tweak - Updated Designer Library
+ * Tweak - Code enhanced
+ * Tweak - Tested with WooCommerce 6.0
+ * Fix   - Print design not working
+
+2021-10-06 - version 2.2
+ * Tweak - Tested with WooCommerce 5.7.1
+ * Fix   - Download Design not working in A3, A2, A1 sizes
+
+2021-09-23 - version 2.1
+ * Tweak - PDF file type support for image upload
+ * Tweak - Tested with WooCommerce 5.7
+
+2021-09-04 - version 2.0
+ * New   - Option to redirect with changes to product page from product designer page
+ * Tweak - Addon prices for the product will be added with the designing price
+ * Fix   - Custom CSS issue
+ * Fix 	 - Translation issue
+
+2021-08-23 - version 1.9
+ * Tweak - Restrict adding the product to cart when no customization is made
+ * Tweak - Image upload supported in Design Templates
+ * Tweak - Tested with WordPress 5.8
+ * Tweak - Tested with WooCommerce 5.6
+ * Tweak - Compatible with PHP V8.x
+
+2021-06-16 - version 1.8
+ * New   - Foreground/Background segmentation option for Product Base
+ * Tweak - Tested with WooCommerce V5.4.1
+ * Tweak - Moved Font background color and Font color outside tooltip
+ * Tweak - Custom Taxonomy page now added in plugin submenu
+ * Fix   - Flickering issue while designing the product
+ * Fix   - My Designs not restored properly
+
+2021-02-25 - version 1.7
+ * New   - Different Themes supported for Product Designer Page
+
+2021-02-04 - version 1.6
+ * Tweak   - Multiple products can be assigned to a Product Base
+
+2021-01-28 - version 1.5
+ * New   - Custom QR Code Generator
+
+2021-01-21 - version 1.4
+ * New   - Force Login Message Customization
+
+2021-01-01 - version 1.3
+ * New   - Background Color option for Text
+ * New   - Text Masking with Image
+ * New   - Overline option for Text
+ * New   - Linethrough option for Text
+ * New   - Copy/Paste a selected object
+ * Tweak - Improvements in Google Font List
+
+2020-12-17 - version 1.2
+ * New   - Superscript and Subscript option for Text
+ * New   - Uppercase and Lowercase option for Text
+ * New   - Price option for each Color in Product Color attribute
+ * Tweak - Edit each Color in Product Color attribute
+ * Tweak - Improvements in Text alignment
+ * Tweak - Text can be customized for selected characters
+
+2020-12-07 - version 1.1
+ * New	 - Option to convert Data URL to Blob
+ * New	 - Watermark on Print Designs before Purchase
+ * Tweak - Set newly added element to canvas in active selection
+ * Tweak - Undo Process in cart page supported to retrieve Product Designer data
+ * Tweak - Default print data for all sizes
+
+2020-11-09 - version 1.0
+ * Initial Release.

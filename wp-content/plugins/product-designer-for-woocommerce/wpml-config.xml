@@ -1,0 +1,48 @@
+<wpml-config>
+    <admin-texts>
+        <!-- General Settings -->
+        <key name="pdr_site_title"/>
+        <key name="pdr_footer_content"/>
+        <!-- Messages Tab-->
+        <key name="pdr_designer_no_designs_msg"/>
+        <key name="pdr_designer_text_default_msg"/>
+        <key name="pdr_designer_no_product_base_msg"/>
+        <key name="pdr_designer_product_added_msg"/>
+        <key name="pdr_designer_design_saved_msg"/>
+        <key name="pdr_designer_design_deleted_msg"/>
+        <key name="pdr_designer_force_login_message"/>
+        <!-- Localization Tab-->        
+        <key name="pdr_designer_file_label"/>
+        <key name="pdr_designer_export_file_label"/>
+        <key name="pdr_designer_print_label"/>
+        <key name="pdr_designer_my_designs_label"/>
+        <key name="pdr_designer_add_to_cart_label"/>
+        <key name="pdr_designer_update_cart_label"/>
+        <key name="pdr_designer_back_to_shop_label"/>
+        <key name="pdr_designer_product_menu_label"/>
+        <key name="pdr_designer_product_quantity_label"/>
+        <key name="pdr_designer_choose_product_label"/>
+        <key name="pdr_designer_clipart_menu_label"/>
+        <key name="pdr_designer_image_menu_label"/>
+        <key name="pdr_designer_text_menu_label"/>
+        <key name="pdr_designer_shape_menu_label"/>
+        <key name="pdr_designer_template_menu_label"/>
+        <key name="pdr_designer_switch_view_label"/>
+        <key name="pdr_designer_save_design_label"/>
+        <key name="pdr_designer_text_tools_label"/>
+        <key name="pdr_designer_object_tools_label"/>
+        <key name="pdr_designer_text_font_size_label"/>
+        <key name="pdr_designer_text_font_family_label"/>
+        <key name="pdr_designer_text_select_font_family_label"/>
+        <key name="pdr_designer_text_google_fonts_label"/>
+        <key name="pdr_designer_text_font_color_label"/>
+        <key name="pdr_designer_text_add_new_label"/>
+        <key name="pdr_designer_text_background_color_label"/>
+        <key name="pdr_designer_text_image_mask_label"/>
+        <key name="pdr_designer_qr_generation_label"/>
+        <key name="pdr_designer_qr_input_text_label"/>
+        <key name="pdr_designer_qr_add_qr_label"/>
+	<key name="pdr_designer_redirect_single_pp_label"/>
+	<key name="pdr_designer_product_page_label"/>
+    </admin-texts>
+</wpml-config>

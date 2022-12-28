@@ -1,0 +1,1892 @@
+# Copyright (C) 2022 FantasticPlugins
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: Product Designer for WooCommerce 4.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/product-designer-for-woocommerce\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-11-16T17:41:25+05:30\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: product-designer-for-woocommerce\n"
+
+#. Plugin Name of the plugin
+#: includes/admin/class-admin-menu.php:50
+#: includes/privacy/class-pdr-privacy.php:40
+#: templates/frontend-ui.php:12
+msgid "Product Designer for WooCommerce"
+msgstr ""
+
+#. Description of the plugin
+msgid "Product Designer for WooCommerce allows your users to design the products as per their preference and purchase them in your Shop."
+msgstr ""
+
+#. Author of the plugin
+msgid "FantasticPlugins"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://fantasticplugins.com"
+msgstr ""
+
+#: includes/abstracts/abstract-pdr-settings-tab.php:505
+#: includes/admin/views/html-product-base-panel-data.php:34
+msgid "Select a Image"
+msgstr ""
+
+#: includes/abstracts/abstract-pdr-settings-tab.php:506
+#: includes/admin/views/html-product-base-panel-data.php:35
+msgid "Delete Image"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:50
+msgid "Product Designer"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:53
+msgid "Product Base Categories"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:54
+msgid "Design Template Categories"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:55
+msgid "Cliparts Categories"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:56
+msgid "Shapes Categories"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:61
+#: includes/admin/class-pdr-meta-boxes.php:117
+#: includes/admin/class-pdr-meta-boxes.php:119
+#: includes/admin/class-pdr-meta-boxes.php:121
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/class-cpt.php:65
+#: includes/admin/class-cpt.php:66
+#: includes/admin/post-tables/class-pdr-order-list-table.php:57
+msgid "Product Base"
+msgstr ""
+
+#: includes/admin/class-cpt.php:75
+#: includes/admin/class-cpt.php:76
+msgid "Design Templates"
+msgstr ""
+
+#: includes/admin/class-cpt.php:85
+#: includes/admin/class-cpt.php:86
+#: includes/admin/class-dashboard.php:41
+#: includes/admin/tabs/modules.php:777
+msgid "Cliparts"
+msgstr ""
+
+#: includes/admin/class-cpt.php:95
+#: includes/admin/class-cpt.php:96
+#: includes/admin/class-dashboard.php:42
+#: includes/admin/tabs/modules.php:792
+msgid "Shapes"
+msgstr ""
+
+#: includes/admin/class-cpt.php:104
+#: includes/admin/class-cpt.php:105
+msgid "My Designs"
+msgstr ""
+
+#: includes/admin/class-cpt.php:112
+#: includes/admin/class-cpt.php:113
+#: includes/admin/class-dashboard.php:40
+msgid "Orders"
+msgstr ""
+
+#: includes/admin/class-cpt.php:144
+#: includes/admin/class-cpt.php:191
+#: includes/admin/class-cpt.php:238
+#: includes/admin/class-cpt.php:280
+#: includes/admin/post-tables/class-pdr-clipart-list-table.php:58
+#: includes/admin/post-tables/class-pdr-design-template-list-table.php:58
+msgid "Categories"
+msgstr ""
+
+#: includes/admin/class-cpt.php:146
+msgid "Product Base categories"
+msgstr ""
+
+#: includes/admin/class-cpt.php:147
+msgid "Product Base Category"
+msgstr ""
+
+#: includes/admin/class-cpt.php:148
+#: includes/admin/class-cpt.php:195
+#: includes/admin/class-cpt.php:242
+#: includes/admin/class-cpt.php:284
+msgctxt "Admin menu name"
+msgid "Categories"
+msgstr ""
+
+#: includes/admin/class-cpt.php:149
+#: includes/admin/class-cpt.php:196
+#: includes/admin/class-cpt.php:243
+#: includes/admin/class-cpt.php:285
+msgid "Search categories"
+msgstr ""
+
+#: includes/admin/class-cpt.php:150
+#: includes/admin/class-cpt.php:197
+#: includes/admin/class-cpt.php:244
+#: includes/admin/class-cpt.php:286
+msgid "All categories"
+msgstr ""
+
+#: includes/admin/class-cpt.php:151
+#: includes/admin/class-cpt.php:198
+#: includes/admin/class-cpt.php:245
+#: includes/admin/class-cpt.php:287
+msgid "Parent category"
+msgstr ""
+
+#: includes/admin/class-cpt.php:152
+#: includes/admin/class-cpt.php:199
+#: includes/admin/class-cpt.php:246
+#: includes/admin/class-cpt.php:288
+msgid "Parent category:"
+msgstr ""
+
+#: includes/admin/class-cpt.php:153
+#: includes/admin/class-cpt.php:200
+#: includes/admin/class-cpt.php:247
+#: includes/admin/class-cpt.php:289
+msgid "Edit category"
+msgstr ""
+
+#: includes/admin/class-cpt.php:154
+#: includes/admin/class-cpt.php:201
+#: includes/admin/class-cpt.php:248
+#: includes/admin/class-cpt.php:290
+msgid "Update category"
+msgstr ""
+
+#: includes/admin/class-cpt.php:155
+#: includes/admin/class-cpt.php:202
+#: includes/admin/class-cpt.php:249
+#: includes/admin/class-cpt.php:291
+msgid "Add new category"
+msgstr ""
+
+#: includes/admin/class-cpt.php:156
+#: includes/admin/class-cpt.php:203
+#: includes/admin/class-cpt.php:250
+#: includes/admin/class-cpt.php:292
+msgid "New category name"
+msgstr ""
+
+#: includes/admin/class-cpt.php:157
+#: includes/admin/class-cpt.php:204
+#: includes/admin/class-cpt.php:251
+#: includes/admin/class-cpt.php:293
+msgid "No categories found"
+msgstr ""
+
+#: includes/admin/class-cpt.php:193
+msgid "Clipart categories"
+msgstr ""
+
+#: includes/admin/class-cpt.php:194
+msgid "Clipart Category"
+msgstr ""
+
+#: includes/admin/class-cpt.php:240
+msgid "Design Template categories"
+msgstr ""
+
+#: includes/admin/class-cpt.php:241
+msgid "Design Template Category"
+msgstr ""
+
+#: includes/admin/class-cpt.php:282
+msgid "Shape categories"
+msgstr ""
+
+#: includes/admin/class-cpt.php:283
+msgid "Shape Category"
+msgstr ""
+
+#: includes/admin/class-dashboard.php:37
+msgid "Dashboard"
+msgstr ""
+
+#: includes/admin/class-dashboard.php:43
+#: includes/admin/tabs/modules.php:772
+msgid "Templates"
+msgstr ""
+
+#: includes/admin/class-dashboard.php:44
+msgid "Product Bases"
+msgstr ""
+
+#: includes/admin/class-pdr-admin-ajax.php:70
+msgid "No Products found"
+msgstr ""
+
+#: includes/admin/class-pdr-admin-ajax.php:126
+msgid "No Customer found"
+msgstr ""
+
+#: includes/admin/class-pdr-admin-ajax.php:183
+msgid "No Product bases found"
+msgstr ""
+
+#: includes/admin/class-pdr-admin-ajax.php:226
+#: includes/admin/class-pdr-admin-ajax.php:261
+#: includes/admin/class-pdr-admin-ajax.php:296
+#: includes/admin/class-pdr-admin-ajax.php:332
+msgid "You don't have permission to do this action"
+msgstr ""
+
+#: includes/admin/class-pdr-admin-ajax.php:339
+#: includes/admin/class-pdr-admin-ajax.php:371
+#: includes/admin/class-pdr-admin-ajax.php:376
+#: includes/admin/class-pdr-admin-ajax.php:484
+#: includes/admin/class-pdr-admin-ajax.php:489
+msgid "Cannot complete action"
+msgstr ""
+
+#: includes/admin/class-pdr-admin-ajax.php:345
+#: includes/admin/views/html-modules-table.php:30
+msgid "Disable"
+msgstr ""
+
+#: includes/admin/class-pdr-admin-ajax.php:349
+#: includes/admin/views/html-modules-table.php:30
+msgid "Enable"
+msgstr ""
+
+#: includes/admin/class-pdr-admin-ajax.php:383
+#: includes/admin/class-pdr-admin-ajax.php:496
+msgid "Cannot complete action, invalid details found"
+msgstr ""
+
+#: includes/admin/class-pdr-admin-ajax.php:451
+msgid "Sorry, unable to add product to cart, please visit cart page for more details"
+msgstr ""
+
+#: includes/admin/class-pdr-admin-ajax.php:533
+msgid "Sorry, unable to add product to session storage"
+msgstr ""
+
+#: includes/admin/class-pdr-meta-boxes.php:111
+msgid "Product Selection & Base Image Segmentation"
+msgstr ""
+
+#: includes/admin/class-pdr-meta-boxes.php:113
+msgid "Views"
+msgstr ""
+
+#: includes/admin/class-pdr-meta-boxes.php:115
+msgid "Attributes"
+msgstr ""
+
+#: includes/admin/class-pdr-meta-boxes.php:124
+#: includes/admin/tabs/general.php:614
+msgid "Font Family Settings"
+msgstr ""
+
+#: includes/admin/class-pdr-meta-boxes.php:288
+msgid "Please assign a product for product base"
+msgstr ""
+
+#: includes/admin/class-pdr-meta-boxes.php:308
+msgid "Product IDs  already linked in another product base"
+msgstr ""
+
+#: includes/admin/class-pdr-meta-boxes.php:376
+msgid "Please add svg image in editor"
+msgstr ""
+
+#: includes/admin/class-pdr-meta-boxes.php:419
+msgid "Please Upload a feature image"
+msgstr ""
+
+#: includes/admin/class-pdr-meta-boxes.php:464
+msgid "Please Upload a file"
+msgstr ""
+
+#: includes/admin/post-tables/class-pdr-clipart-list-table.php:55
+#: includes/admin/post-tables/class-pdr-design-template-list-table.php:55
+#: includes/admin/post-tables/class-pdr-product-base-list-table.php:48
+#: includes/admin/post-tables/class-pdr-shape-list-table.php:55
+#: includes/admin/views/html-attributes-panel-data.php:14
+msgid "Name"
+msgstr ""
+
+#: includes/admin/post-tables/class-pdr-clipart-list-table.php:56
+#: includes/admin/post-tables/class-pdr-design-template-list-table.php:56
+#: includes/admin/post-tables/class-pdr-shape-list-table.php:56
+msgid "Preview"
+msgstr ""
+
+#: includes/admin/post-tables/class-pdr-clipart-list-table.php:57
+#: includes/admin/post-tables/class-pdr-design-template-list-table.php:57
+#: includes/admin/views/html-attributes-panel-data.php:76
+#: includes/admin/views/html-clipart-data.php:12
+#: includes/admin/views/html-design-template-data.php:11
+#: includes/admin/views/html-shape-data.php:12
+msgid "Price"
+msgstr ""
+
+#: includes/admin/post-tables/class-pdr-clipart-list-table.php:59
+#: includes/admin/post-tables/class-pdr-design-template-list-table.php:59
+#: includes/admin/views/html-clipart-data.php:16
+#: includes/admin/views/html-design-template-data.php:25
+msgid "Featured"
+msgstr ""
+
+#: includes/admin/post-tables/class-pdr-clipart-list-table.php:60
+#: includes/admin/post-tables/class-pdr-design-template-list-table.php:60
+#: includes/admin/post-tables/class-pdr-product-base-list-table.php:51
+#: includes/admin/post-tables/class-pdr-shape-list-table.php:57
+msgid "Status"
+msgstr ""
+
+#: includes/admin/post-tables/class-pdr-clipart-list-table.php:61
+#: includes/admin/post-tables/class-pdr-design-template-list-table.php:61
+#: includes/admin/post-tables/class-pdr-order-list-table.php:61
+#: includes/admin/post-tables/class-pdr-product-base-list-table.php:52
+#: includes/admin/post-tables/class-pdr-shape-list-table.php:58
+msgid "Date"
+msgstr ""
+
+#: includes/admin/post-tables/class-pdr-order-list-table.php:54
+msgid "Order ID"
+msgstr ""
+
+#: includes/admin/post-tables/class-pdr-order-list-table.php:55
+msgid "User Details"
+msgstr ""
+
+#: includes/admin/post-tables/class-pdr-order-list-table.php:56
+msgid "Product"
+msgstr ""
+
+#: includes/admin/post-tables/class-pdr-order-list-table.php:58
+msgid "Image URL"
+msgstr ""
+
+#: includes/admin/post-tables/class-pdr-order-list-table.php:59
+msgid "Product Price"
+msgstr ""
+
+#: includes/admin/post-tables/class-pdr-order-list-table.php:60
+#: includes/admin/post-tables/class-pdr-order-list-table.php:166
+#: includes/class-pdr-order-handler.php:159
+msgid "Download Design"
+msgstr ""
+
+#: includes/admin/post-tables/class-pdr-order-list-table.php:168
+msgid "WooCommerce order not exists"
+msgstr ""
+
+#: includes/admin/post-tables/class-pdr-product-base-list-table.php:49
+#: includes/admin/views/html-product-base-product-selection.php:28
+msgid "Description"
+msgstr ""
+
+#: includes/admin/post-tables/class-pdr-product-base-list-table.php:105
+msgid "Published"
+msgstr ""
+
+#: includes/admin/tabs/advanced.php:24
+msgid "Advanced"
+msgstr ""
+
+#: includes/admin/tabs/advanced.php:61
+#: includes/admin/tabs/general.php:119
+msgid "General Settings"
+msgstr ""
+
+#: includes/admin/tabs/advanced.php:67
+msgid "Smart Guide"
+msgstr ""
+
+#: includes/admin/tabs/advanced.php:69
+#: includes/admin/tabs/advanced.php:79
+#: includes/admin/tabs/advanced.php:89
+#: includes/admin/tabs/general.php:485
+#: includes/admin/tabs/general.php:502
+#: includes/admin/tabs/general.php:562
+#: includes/admin/tabs/modules.php:163
+#: includes/admin/tabs/modules.php:173
+#: includes/admin/tabs/modules.php:183
+#: includes/admin/tabs/modules.php:193
+#: includes/admin/tabs/modules.php:203
+#: includes/admin/tabs/modules.php:213
+#: includes/admin/tabs/modules.php:223
+#: includes/admin/tabs/modules.php:233
+#: includes/admin/tabs/modules.php:243
+#: includes/admin/tabs/modules.php:253
+#: includes/admin/tabs/modules.php:309
+#: includes/admin/tabs/modules.php:319
+#: includes/admin/tabs/modules.php:329
+#: includes/admin/tabs/modules.php:339
+#: includes/admin/tabs/modules.php:349
+#: includes/admin/tabs/modules.php:359
+#: includes/admin/tabs/modules.php:391
+#: includes/admin/tabs/modules.php:401
+#: includes/admin/tabs/modules.php:453
+#: includes/admin/tabs/modules.php:463
+#: includes/admin/tabs/modules.php:473
+#: includes/admin/tabs/modules.php:483
+#: includes/admin/tabs/modules.php:493
+#: includes/admin/tabs/modules.php:503
+#: includes/admin/tabs/modules.php:535
+#: includes/admin/tabs/modules.php:557
+#: includes/admin/tabs/modules.php:567
+#: includes/admin/tabs/modules.php:577
+#: includes/admin/tabs/modules.php:587
+#: includes/admin/tabs/modules.php:597
+#: includes/admin/tabs/modules.php:607
+#: includes/admin/tabs/modules.php:617
+#: includes/admin/tabs/modules.php:663
+#: includes/admin/tabs/modules.php:695
+#: includes/admin/tabs/modules.php:705
+#: includes/admin/tabs/modules.php:715
+#: includes/admin/tabs/modules.php:725
+#: includes/admin/tabs/modules.php:735
+#: includes/admin/tabs/modules.php:745
+msgid "Yes"
+msgstr ""
+
+#: includes/admin/tabs/advanced.php:70
+#: includes/admin/tabs/advanced.php:80
+#: includes/admin/tabs/advanced.php:90
+#: includes/admin/tabs/general.php:486
+#: includes/admin/tabs/general.php:503
+#: includes/admin/tabs/general.php:563
+#: includes/admin/tabs/modules.php:164
+#: includes/admin/tabs/modules.php:174
+#: includes/admin/tabs/modules.php:184
+#: includes/admin/tabs/modules.php:194
+#: includes/admin/tabs/modules.php:204
+#: includes/admin/tabs/modules.php:214
+#: includes/admin/tabs/modules.php:224
+#: includes/admin/tabs/modules.php:234
+#: includes/admin/tabs/modules.php:244
+#: includes/admin/tabs/modules.php:254
+#: includes/admin/tabs/modules.php:310
+#: includes/admin/tabs/modules.php:320
+#: includes/admin/tabs/modules.php:330
+#: includes/admin/tabs/modules.php:340
+#: includes/admin/tabs/modules.php:350
+#: includes/admin/tabs/modules.php:360
+#: includes/admin/tabs/modules.php:392
+#: includes/admin/tabs/modules.php:402
+#: includes/admin/tabs/modules.php:454
+#: includes/admin/tabs/modules.php:464
+#: includes/admin/tabs/modules.php:474
+#: includes/admin/tabs/modules.php:484
+#: includes/admin/tabs/modules.php:494
+#: includes/admin/tabs/modules.php:504
+#: includes/admin/tabs/modules.php:536
+#: includes/admin/tabs/modules.php:558
+#: includes/admin/tabs/modules.php:568
+#: includes/admin/tabs/modules.php:578
+#: includes/admin/tabs/modules.php:588
+#: includes/admin/tabs/modules.php:598
+#: includes/admin/tabs/modules.php:608
+#: includes/admin/tabs/modules.php:618
+#: includes/admin/tabs/modules.php:664
+#: includes/admin/tabs/modules.php:696
+#: includes/admin/tabs/modules.php:706
+#: includes/admin/tabs/modules.php:716
+#: includes/admin/tabs/modules.php:726
+#: includes/admin/tabs/modules.php:736
+#: includes/admin/tabs/modules.php:746
+msgid "No"
+msgstr ""
+
+#: includes/admin/tabs/advanced.php:77
+msgid "Touch Scrolling Support"
+msgstr ""
+
+#: includes/admin/tabs/advanced.php:87
+msgid "Fit Image to Canvas"
+msgstr ""
+
+#: includes/admin/tabs/general.php:24
+msgid "General"
+msgstr ""
+
+#: includes/admin/tabs/general.php:125
+msgid "Enable Product Customization"
+msgstr ""
+
+#: includes/admin/tabs/general.php:126
+msgid "When enabled, users can customize their products before purchase"
+msgstr ""
+
+#: includes/admin/tabs/general.php:129
+#: includes/class-pdr-pages.php:112
+msgid "Product Designer Page"
+msgstr ""
+
+#: includes/admin/tabs/general.php:134
+msgid "The page in which the Designer will be displayed"
+msgstr ""
+
+#: includes/admin/tabs/general.php:141
+msgid "Product Designer Page Logo"
+msgstr ""
+
+#: includes/admin/tabs/general.php:147
+msgid "Product Designer Page Title"
+msgstr ""
+
+#: includes/admin/tabs/general.php:153
+msgid "Shop URL"
+msgstr ""
+
+#: includes/admin/tabs/general.php:159
+msgid "Product Designer Page Favicon"
+msgstr ""
+
+#: includes/admin/tabs/general.php:165
+msgid "Footer Content for Designer Page"
+msgstr ""
+
+#: includes/admin/tabs/general.php:171
+msgid "Hide Product Descripton on Product Designer Page"
+msgstr ""
+
+#: includes/admin/tabs/general.php:177
+msgid "When enabled, users cannot customize the products when they access your site on mobile devices."
+msgstr ""
+
+#: includes/admin/tabs/general.php:178
+msgid "Hide Product Customization on Mobile"
+msgstr ""
+
+#: includes/admin/tabs/general.php:184
+msgid "When enabled, canvas data url will be converted to blob(binary large object) which improves performance"
+msgstr ""
+
+#: includes/admin/tabs/general.php:185
+msgid "Convert Data URL to BLOB"
+msgstr ""
+
+#: includes/admin/tabs/general.php:191
+msgid "When enabled, price tag displayed near product name and attribute values will be hidden when the price is set as 0"
+msgstr ""
+
+#: includes/admin/tabs/general.php:192
+msgid "Hide Price Tag in Designer Page when Price is set as 0"
+msgstr ""
+
+#: includes/admin/tabs/general.php:198
+msgid "When enabled, Add to Cart button will be hidden in Product Designer Editor Page"
+msgstr ""
+
+#: includes/admin/tabs/general.php:199
+msgid "Hide Add to Cart button in Designer Page"
+msgstr ""
+
+#: includes/admin/tabs/general.php:205
+msgid "When enabled, it will display Redirect with Changes to Product Page Button in Product Designer Editor Page"
+msgstr ""
+
+#: includes/admin/tabs/general.php:206
+msgid "Display Redirect with Changes to Product Page Button in Designer Page"
+msgstr ""
+
+#: includes/admin/tabs/general.php:220
+msgid "Watermark Settings"
+msgstr ""
+
+#: includes/admin/tabs/general.php:226
+msgid "When enabled, watermark will be applied on print design images when user download/print the design"
+msgstr ""
+
+#: includes/admin/tabs/general.php:227
+msgid "Enable Watermark on Print Designs before Purchase"
+msgstr ""
+
+#: includes/admin/tabs/general.php:233
+msgid "Watermark Text"
+msgstr ""
+
+#: includes/admin/tabs/general.php:240
+msgid "Watermark Font Size"
+msgstr ""
+
+#: includes/admin/tabs/general.php:241
+msgid "px"
+msgstr ""
+
+#: includes/admin/tabs/general.php:248
+msgid "Watermark Font Color"
+msgstr ""
+
+#: includes/admin/tabs/general.php:255
+msgid "Product Designer Page Theme Settings"
+msgstr ""
+
+#: includes/admin/tabs/general.php:259
+msgid "Select Theme"
+msgstr ""
+
+#: includes/admin/tabs/general.php:264
+msgid "Default"
+msgstr ""
+
+#: includes/admin/tabs/general.php:265
+msgid "Amazon"
+msgstr ""
+
+#: includes/admin/tabs/general.php:266
+msgid "Basic"
+msgstr ""
+
+#: includes/admin/tabs/general.php:267
+msgid "Chubby"
+msgstr ""
+
+#: includes/admin/tabs/general.php:268
+msgid "Github"
+msgstr ""
+
+#: includes/admin/tabs/general.php:269
+msgid "Material"
+msgstr ""
+
+#: includes/admin/tabs/general.php:270
+msgid "Custom"
+msgstr ""
+
+#: includes/admin/tabs/general.php:277
+msgid "Header Background Color"
+msgstr ""
+
+#: includes/admin/tabs/general.php:284
+msgid "Footer Background Color"
+msgstr ""
+
+#: includes/admin/tabs/general.php:290
+msgid "Button Background Color"
+msgstr ""
+
+#: includes/admin/tabs/general.php:296
+msgid "Button Font Color"
+msgstr ""
+
+#: includes/admin/tabs/general.php:302
+msgid "Font Color"
+msgstr ""
+
+#: includes/admin/tabs/general.php:309
+msgid "User Restrictions"
+msgstr ""
+
+#: includes/admin/tabs/general.php:312
+msgid "Product Can be Customized By"
+msgstr ""
+
+#: includes/admin/tabs/general.php:315
+msgid "The products can be customized by users selected in this option."
+msgstr ""
+
+#: includes/admin/tabs/general.php:318
+msgid "All Users"
+msgstr ""
+
+#: includes/admin/tabs/general.php:319
+#: includes/admin/tabs/general.php:326
+msgid "Include Users"
+msgstr ""
+
+#: includes/admin/tabs/general.php:320
+#: includes/admin/tabs/general.php:335
+msgid "Exclude Users"
+msgstr ""
+
+#: includes/admin/tabs/general.php:321
+#: includes/admin/tabs/general.php:344
+msgid "Include User Roles"
+msgstr ""
+
+#: includes/admin/tabs/general.php:322
+#: includes/admin/tabs/general.php:352
+msgid "Exclude User Roles"
+msgstr ""
+
+#: includes/admin/tabs/general.php:363
+msgid "When enabled, guest users will be forced to login to the site when try to customize the product"
+msgstr ""
+
+#: includes/admin/tabs/general.php:364
+msgid "Force Guest Users to Login Before Customization"
+msgstr ""
+
+#: includes/admin/tabs/general.php:371
+msgid "Display Settings"
+msgstr ""
+
+#: includes/admin/tabs/general.php:377
+msgid "Customize Button Caption"
+msgstr ""
+
+#: includes/admin/tabs/general.php:383
+msgid "Display Customize Button on Single Product Pages"
+msgstr ""
+
+#: includes/admin/tabs/general.php:386
+msgid "Single Product Page Customize Button Position"
+msgstr ""
+
+#: includes/admin/tabs/general.php:391
+msgid "After Short Description"
+msgstr ""
+
+#: includes/admin/tabs/general.php:392
+#: includes/admin/tabs/general.php:424
+msgid "Before Add to Cart Button"
+msgstr ""
+
+#: includes/admin/tabs/general.php:393
+#: includes/admin/tabs/general.php:425
+msgid "After Add to Cart Button"
+msgstr ""
+
+#: includes/admin/tabs/general.php:416
+msgid "Display Customize Button on Shop and Category Pages"
+msgstr ""
+
+#: includes/admin/tabs/general.php:419
+msgid "Shop and Category Page Position"
+msgstr ""
+
+#: includes/admin/tabs/general.php:429
+msgid "Product Customization Info in Cart Page"
+msgstr ""
+
+#: includes/admin/tabs/general.php:434
+#: includes/admin/tabs/general.php:444
+msgid "Show"
+msgstr ""
+
+#: includes/admin/tabs/general.php:435
+#: includes/admin/tabs/general.php:445
+msgid "Hide"
+msgstr ""
+
+#: includes/admin/tabs/general.php:439
+msgid "Product Customization Info in My Account Page"
+msgstr ""
+
+#: includes/admin/tabs/general.php:452
+msgid "Cart Page Thumbnail Width"
+msgstr ""
+
+#: includes/admin/tabs/general.php:458
+msgid "Cart Page Thumbnail Height"
+msgstr ""
+
+#: includes/admin/tabs/general.php:471
+msgid "Customize Button Additional Class"
+msgstr ""
+
+#: includes/admin/tabs/general.php:477
+msgid "Custom CSS"
+msgstr ""
+
+#: includes/admin/tabs/general.php:483
+#: includes/admin/tabs/general.php:500
+msgid "Force Users to Login Before they can Upload Images to Designer"
+msgstr ""
+
+#: includes/admin/tabs/general.php:494
+#: includes/admin/tabs/modules.php:383
+msgid "Image Settings"
+msgstr ""
+
+#: includes/admin/tabs/general.php:510
+#: includes/admin/tabs/modules.php:409
+msgid "Allowed Image Types"
+msgstr ""
+
+#: includes/admin/tabs/general.php:511
+msgid "For Ex: png, jpeg, jpg, gif, etc"
+msgstr ""
+
+#: includes/admin/tabs/general.php:517
+#: includes/admin/tabs/modules.php:415
+msgid "Min Size for Upload"
+msgstr ""
+
+#: includes/admin/tabs/general.php:518
+#: includes/admin/tabs/general.php:525
+msgid "Please enter the size in kb"
+msgstr ""
+
+#: includes/admin/tabs/general.php:524
+#: includes/admin/tabs/modules.php:421
+msgid "Max Size for Upload"
+msgstr ""
+
+#: includes/admin/tabs/general.php:531
+#: includes/admin/tabs/modules.php:283
+#: includes/admin/tabs/modules.php:427
+msgid "Min Dimensions"
+msgstr ""
+
+#: includes/admin/tabs/general.php:532
+msgid "Width x Height - Example(50x50)"
+msgstr ""
+
+#: includes/admin/tabs/general.php:538
+#: includes/admin/tabs/modules.php:289
+#: includes/admin/tabs/modules.php:433
+msgid "Max Dimensions"
+msgstr ""
+
+#: includes/admin/tabs/general.php:539
+msgid "Width x Height - Example (150x150)"
+msgstr ""
+
+#: includes/admin/tabs/general.php:546
+#: includes/admin/tabs/general.php:547
+msgid "Fee for Image Upload"
+msgstr ""
+
+#: includes/admin/tabs/general.php:553
+#: includes/admin/tabs/modules.php:527
+msgid "Text Settings"
+msgstr ""
+
+#: includes/admin/tabs/general.php:559
+msgid "When set to yes, you can charge a fee from your users when they add text to their design"
+msgstr ""
+
+#: includes/admin/tabs/general.php:560
+msgid "Charge a Fee"
+msgstr ""
+
+#: includes/admin/tabs/general.php:570
+msgid "Number of Characters"
+msgstr ""
+
+#: includes/admin/tabs/general.php:577
+msgid "Fee"
+msgstr ""
+
+#: includes/admin/tabs/general.php:584
+msgid "Google Fonts Settings"
+msgstr ""
+
+#: includes/admin/tabs/general.php:590
+msgid "API key has to be entered in order for your users to use Google Font for their Customization."
+msgstr ""
+
+#: includes/admin/tabs/general.php:591
+msgid "Google Font API Key"
+msgstr ""
+
+#: includes/admin/tabs/general.php:597
+msgid "Custom Fonts Settings"
+msgstr ""
+
+#: includes/admin/tabs/general.php:605
+msgid "Multiple file paths separated by comma(,)"
+msgstr ""
+
+#: includes/admin/tabs/general.php:606
+msgid "Custom Fonts File Path"
+msgstr ""
+
+#: includes/admin/tabs/general.php:607
+msgid ""
+"To add custom fonts, go to \"Media > Add New\" and click \"Select Files\" button. Select the custom font file(supported file types: otf, ttf, woff, woff2 ) and click \"Copy URL to Clipboard\" button. Now, paste the copied file path here.\n"
+"Note: Filename will be displayed as font name for the customers"
+msgstr ""
+
+#: includes/admin/tabs/general.php:621
+#: includes/admin/views/html-product-base-font-selection.php:12
+msgid "Usable Font Families"
+msgstr ""
+
+#: includes/admin/tabs/general.php:623
+msgid "All Available Font Families"
+msgstr ""
+
+#: includes/admin/tabs/general.php:624
+msgid "Selected Font Families"
+msgstr ""
+
+#: includes/admin/tabs/general.php:626
+msgid "This option controls which font families customers can use for text customizing. This option can be overridden in each product base"
+msgstr ""
+
+#: includes/admin/tabs/general.php:633
+#: includes/admin/tabs/general.php:636
+#: includes/admin/views/html-product-base-font-selection.php:25
+msgid "Select Font Families"
+msgstr ""
+
+#: includes/admin/tabs/localization.php:24
+msgid "Localization"
+msgstr ""
+
+#: includes/admin/tabs/localization.php:91
+msgid "Localization Settings"
+msgstr ""
+
+#: includes/admin/tabs/localization.php:97
+msgid "File Menu Label"
+msgstr ""
+
+#: includes/admin/tabs/localization.php:103
+msgid "Export Menu Label"
+msgstr ""
+
+#: includes/admin/tabs/localization.php:109
+msgid "Export Template Menu Label"
+msgstr ""
+
+#: includes/admin/tabs/localization.php:115
+msgid "Print Menu Label"
+msgstr ""
+
+#: includes/admin/tabs/localization.php:121
+msgid "My Designs Label"
+msgstr ""
+
+#: includes/admin/tabs/localization.php:127
+msgid "Add To Cart Label"
+msgstr ""
+
+#: includes/admin/tabs/localization.php:133
+msgid "Update Label"
+msgstr ""
+
+#: includes/admin/tabs/localization.php:139
+msgid "Back to Shop Label"
+msgstr ""
+
+#: includes/admin/tabs/localization.php:145
+msgid "Product Menu Label"
+msgstr ""
+
+#: includes/admin/tabs/localization.php:151
+msgid "Product Quantity Label"
+msgstr ""
+
+#: includes/admin/tabs/localization.php:157
+msgid "Change Product Label"
+msgstr ""
+
+#: includes/admin/tabs/localization.php:163
+msgid "Cliparts Menu Label"
+msgstr ""
+
+#: includes/admin/tabs/localization.php:169
+msgid "Images Menu Label"
+msgstr ""
+
+#: includes/admin/tabs/localization.php:175
+msgid "Text Menu Label"
+msgstr ""
+
+#: includes/admin/tabs/localization.php:181
+msgid "Shapes Menu Label"
+msgstr ""
+
+#: includes/admin/tabs/localization.php:187
+msgid "Templates Menu Label"
+msgstr ""
+
+#: includes/admin/tabs/localization.php:193
+msgid "Switch View Label"
+msgstr ""
+
+#: includes/admin/tabs/localization.php:199
+msgid "Save Design Label"
+msgstr ""
+
+#: includes/admin/tabs/localization.php:205
+msgid "Text Tools Label"
+msgstr ""
+
+#: includes/admin/tabs/localization.php:211
+msgid "Object Tools Label"
+msgstr ""
+
+#: includes/admin/tabs/localization.php:217
+msgid "Font Size Label"
+msgstr ""
+
+#: includes/admin/tabs/localization.php:223
+msgid "Font Family Label"
+msgstr ""
+
+#: includes/admin/tabs/localization.php:229
+msgid "Select Font Family Label"
+msgstr ""
+
+#: includes/admin/tabs/localization.php:235
+msgid "Google Fonts Label"
+msgstr ""
+
+#: includes/admin/tabs/localization.php:241
+msgid "Font Color Label"
+msgstr ""
+
+#: includes/admin/tabs/localization.php:247
+msgid "Background Color Label"
+msgstr ""
+
+#: includes/admin/tabs/localization.php:253
+msgid "Add Text Button Label"
+msgstr ""
+
+#: includes/admin/tabs/localization.php:259
+msgid "Text Mask Image Label"
+msgstr ""
+
+#: includes/admin/tabs/localization.php:266
+msgid "Generate QR Code Label"
+msgstr ""
+
+#: includes/admin/tabs/localization.php:273
+msgid "QR Code Content Label"
+msgstr ""
+
+#: includes/admin/tabs/localization.php:279
+msgid "Add QR Code Button Label"
+msgstr ""
+
+#: includes/admin/tabs/localization.php:285
+msgid "Display Redirect with Changes to Product Page Button on Product Designer Page"
+msgstr ""
+
+#: includes/admin/tabs/localization.php:291
+msgid "Designing Price in Single Product Page(Option is for Redirect with Changes to Product Page )"
+msgstr ""
+
+#: includes/admin/tabs/messages.php:24
+msgid "Messages"
+msgstr ""
+
+#: includes/admin/tabs/messages.php:65
+msgid "Message Settings"
+msgstr ""
+
+#: includes/admin/tabs/messages.php:71
+msgid "No Designs Message"
+msgstr ""
+
+#: includes/admin/tabs/messages.php:77
+msgid "Text Default Message"
+msgstr ""
+
+#: includes/admin/tabs/messages.php:83
+msgid "No Product Base Message"
+msgstr ""
+
+#: includes/admin/tabs/messages.php:89
+msgid "Product Added Message"
+msgstr ""
+
+#: includes/admin/tabs/messages.php:95
+msgid "Design Saved Message"
+msgstr ""
+
+#: includes/admin/tabs/messages.php:101
+msgid "Design Deleted Message"
+msgstr ""
+
+#: includes/admin/tabs/messages.php:107
+msgid "Force Login Message"
+msgstr ""
+
+#: includes/admin/tabs/messages.php:115
+msgid "Empty QR Code Content Error Message"
+msgstr ""
+
+#: includes/admin/tabs/modules.php:31
+#: includes/admin/views/html-modules-table.php:11
+msgid "Modules"
+msgstr ""
+
+#: includes/admin/tabs/modules.php:155
+msgid "Template Settings"
+msgstr ""
+
+#: includes/admin/tabs/modules.php:161
+msgid "User can save their designs"
+msgstr ""
+
+#: includes/admin/tabs/modules.php:171
+msgid "User can download their design"
+msgstr ""
+
+#: includes/admin/tabs/modules.php:181
+msgid "User can upload their own designs"
+msgstr ""
+
+#: includes/admin/tabs/modules.php:191
+msgid "User can print their designs"
+msgstr ""
+
+#: includes/admin/tabs/modules.php:201
+msgid "Auto Center Template"
+msgstr ""
+
+#: includes/admin/tabs/modules.php:211
+msgid "Template is Draggable"
+msgstr ""
+
+#: includes/admin/tabs/modules.php:221
+msgid "Template is Rotatable"
+msgstr ""
+
+#: includes/admin/tabs/modules.php:231
+msgid "Template is Resizable"
+msgstr ""
+
+#: includes/admin/tabs/modules.php:241
+#: includes/admin/tabs/modules.php:347
+#: includes/admin/tabs/modules.php:491
+#: includes/admin/tabs/modules.php:605
+#: includes/admin/tabs/modules.php:733
+msgid "Allow Unpropotional Scaling"
+msgstr ""
+
+#: includes/admin/tabs/modules.php:251
+#: includes/admin/tabs/modules.php:357
+#: includes/admin/tabs/modules.php:501
+#: includes/admin/tabs/modules.php:615
+#: includes/admin/tabs/modules.php:743
+msgid "Always Stay on Top"
+msgstr ""
+
+#: includes/admin/tabs/modules.php:277
+msgid "Clipart Settings"
+msgstr ""
+
+#: includes/admin/tabs/modules.php:295
+#: includes/admin/tabs/modules.php:439
+msgid "Min PPI"
+msgstr ""
+
+#: includes/admin/tabs/modules.php:301
+#: includes/admin/tabs/modules.php:445
+msgid "Max PPI"
+msgstr ""
+
+#: includes/admin/tabs/modules.php:307
+msgid "Auto Center Clipart"
+msgstr ""
+
+#: includes/admin/tabs/modules.php:317
+msgid "Clipart is Draggable"
+msgstr ""
+
+#: includes/admin/tabs/modules.php:327
+msgid "Clipart is Rotatable"
+msgstr ""
+
+#: includes/admin/tabs/modules.php:337
+msgid "Clipart is Resizable"
+msgstr ""
+
+#: includes/admin/tabs/modules.php:389
+msgid "Save Uploaded Images on Server"
+msgstr ""
+
+#: includes/admin/tabs/modules.php:399
+msgid "Force User to Login before Image Upload"
+msgstr ""
+
+#: includes/admin/tabs/modules.php:451
+#: includes/admin/tabs/modules.php:565
+msgid "Auto Center Image"
+msgstr ""
+
+#: includes/admin/tabs/modules.php:461
+#: includes/admin/tabs/modules.php:575
+msgid "Image is Draggable"
+msgstr ""
+
+#: includes/admin/tabs/modules.php:471
+#: includes/admin/tabs/modules.php:585
+msgid "Image is Rotatable"
+msgstr ""
+
+#: includes/admin/tabs/modules.php:481
+#: includes/admin/tabs/modules.php:595
+msgid "Image is Resizable"
+msgstr ""
+
+#: includes/admin/tabs/modules.php:533
+msgid "Text Curving"
+msgstr ""
+
+#: includes/admin/tabs/modules.php:543
+msgid "Curve  Spacing"
+msgstr ""
+
+#: includes/admin/tabs/modules.php:549
+msgid "Curve Radius"
+msgstr ""
+
+#: includes/admin/tabs/modules.php:555
+msgid "Curve Reverse"
+msgstr ""
+
+#: includes/admin/tabs/modules.php:625
+msgid "Default Font Size"
+msgstr ""
+
+#: includes/admin/tabs/modules.php:631
+msgid "Minimum Font Size"
+msgstr ""
+
+#: includes/admin/tabs/modules.php:637
+msgid "Maximum Font Size"
+msgstr ""
+
+#: includes/admin/tabs/modules.php:643
+msgid "Minimum Characters"
+msgstr ""
+
+#: includes/admin/tabs/modules.php:649
+msgid "Maximum Characters"
+msgstr ""
+
+#: includes/admin/tabs/modules.php:655
+msgid "Maximum Lines"
+msgstr ""
+
+#: includes/admin/tabs/modules.php:661
+msgid "Default Alignment"
+msgstr ""
+
+#: includes/admin/tabs/modules.php:687
+msgid "Shapes Settings"
+msgstr ""
+
+#: includes/admin/tabs/modules.php:693
+msgid "Auto Center Shape"
+msgstr ""
+
+#: includes/admin/tabs/modules.php:703
+msgid "Shape is Draggable"
+msgstr ""
+
+#: includes/admin/tabs/modules.php:713
+msgid "Shape is Rotatable"
+msgstr ""
+
+#: includes/admin/tabs/modules.php:723
+msgid "Shape is Resizable"
+msgstr ""
+
+#: includes/admin/tabs/modules.php:782
+msgid "Images"
+msgstr ""
+
+#: includes/admin/tabs/modules.php:787
+msgid "Text"
+msgstr ""
+
+#: includes/admin/tabs/modules.php:797
+msgid "Product Selection"
+msgstr ""
+
+#: includes/admin/views/html-attribute-color-popup.php:12
+msgid "Manage Colors"
+msgstr ""
+
+#: includes/admin/views/html-attribute-color-popup.php:16
+msgid "Color Title"
+msgstr ""
+
+#: includes/admin/views/html-attribute-color-popup.php:17
+msgid "Hex code of Color"
+msgstr ""
+
+#: includes/admin/views/html-attribute-color-popup.php:19
+msgid "Price without currency symbol"
+msgstr ""
+
+#: includes/admin/views/html-attribute-color-popup.php:22
+msgid "Add Color"
+msgstr ""
+
+#: includes/admin/views/html-attribute-color-popup.php:25
+msgid "Update Color"
+msgstr ""
+
+#: includes/admin/views/html-attributes-panel-data.php:19
+msgid "Choose Type"
+msgstr ""
+
+#: includes/admin/views/html-attributes-panel-data.php:20
+msgid "Product Color"
+msgstr ""
+
+#: includes/admin/views/html-attributes-panel-data.php:21
+msgid "Text Field"
+msgstr ""
+
+#: includes/admin/views/html-attributes-panel-data.php:22
+msgid "Text Area"
+msgstr ""
+
+#: includes/admin/views/html-attributes-panel-data.php:23
+msgid "Single Select"
+msgstr ""
+
+#: includes/admin/views/html-attributes-panel-data.php:24
+msgid "Checkbox"
+msgstr ""
+
+#: includes/admin/views/html-attributes-panel-data.php:25
+msgid "Radiobox"
+msgstr ""
+
+#: includes/admin/views/html-attributes-panel-data.php:29
+msgid "Choose Attribute Types"
+msgstr ""
+
+#: includes/admin/views/html-attributes-panel-data.php:43
+msgid "Options"
+msgstr ""
+
+#: includes/admin/views/html-attributes-panel-data.php:44
+msgid "Option Value | Option Name | Price without Currency Symbol, Option Value | Option Name | Price without Currency Symbol"
+msgstr ""
+
+#: includes/admin/views/html-attributes-panel-data.php:47
+#: includes/admin/views/html-attributes-panel-data.php:48
+msgid "Enter a Label"
+msgstr ""
+
+#: includes/admin/views/html-attributes-panel-data.php:51
+msgid "Colors"
+msgstr ""
+
+#: includes/admin/views/html-attributes-panel-data.php:71
+msgid "Add New Color"
+msgstr ""
+
+#: includes/admin/views/html-attributes-panel-data.php:81
+#: includes/admin/views/html-product-base-panel-data.php:41
+msgid "Remove Panel"
+msgstr ""
+
+#: includes/admin/views/html-design-template-data.php:15
+msgid "Upload Image"
+msgstr ""
+
+#: includes/admin/views/html-design-template-data.php:21
+msgid "Upload File"
+msgstr ""
+
+#: includes/admin/views/html-edit-product-settings.php:11
+#: includes/admin/views/html-edit-product-variation-settings.php:11
+msgid "Select a product base"
+msgstr ""
+
+#: includes/admin/views/html-edit-product-settings.php:20
+#: includes/admin/views/html-edit-product-variation-settings.php:21
+msgid "Search for a product base&hellip;"
+msgstr ""
+
+#: includes/admin/views/html-modules-table.php:15
+msgid "Module"
+msgstr ""
+
+#: includes/admin/views/html-modules-table.php:16
+msgid "Action"
+msgstr ""
+
+#: includes/admin/views/html-modules-table.php:41
+msgid "Customize"
+msgstr ""
+
+#: includes/admin/views/html-product-base-font-selection.php:10
+msgid "This option controls which font families customers can use for text customizing. You can use global settings or else override it and use specific font families for this product base"
+msgstr ""
+
+#: includes/admin/views/html-product-base-panel-data.php:14
+msgid "Title"
+msgstr ""
+
+#: includes/admin/views/html-product-base-product-selection.php:11
+msgid "Assign Product"
+msgstr ""
+
+#: includes/admin/views/html-product-base-product-selection.php:18
+msgid "Search for a product&hellip;"
+msgstr ""
+
+#: includes/admin/views/html-product-base-product-selection.php:33
+msgid "Base Image Segmentation"
+msgstr ""
+
+#: includes/admin/views/html-product-base-product-selection.php:36
+msgid "Foreground/Overlay"
+msgstr ""
+
+#: includes/admin/views/html-product-base-product-selection.php:36
+msgid "Background"
+msgstr ""
+
+#: includes/admin/views/html-product-base-product-selection.php:48
+msgid "Select \"Foreground/Overlay\" if your base image is transparent. Select \"Background\" if your base image is non-transparent Note: Base Image Design Area selection and Product Color Attribute will not work in Background segmentation."
+msgstr ""
+
+#: includes/admin/views/html-setting-buttons.php:13
+msgid "Save Changes"
+msgstr ""
+
+#: includes/admin/views/html-setting-buttons.php:20
+msgid "Reset"
+msgstr ""
+
+#: includes/class-frontend.php:371
+msgid "Price per Character = "
+msgstr ""
+
+#: includes/class-pdr-pages.php:36
+msgctxt "Page slug"
+msgid "pdr_designer"
+msgstr ""
+
+#: includes/class-pdr-pages.php:37
+msgctxt "Page title"
+msgid "Product Designer"
+msgstr ""
+
+#: includes/class-rest-api.php:58
+msgid "Sorry, you cannot list resources."
+msgstr ""
+
+#: includes/class-template.php:53
+msgid "Sorry you're not allowed to customize products, please contact admin for further details"
+msgstr ""
+
+#: includes/frontend/class-pdr-cart.php:164
+msgid "Edit Design"
+msgstr ""
+
+#: includes/functions.php:538
+msgid "Clear selection"
+msgstr ""
+
+#: includes/functions.php:553
+msgid "Select "
+msgstr ""
+
+#: includes/functions.php:783
+msgid "{{attribute_title}} has to be select before proceed add to cart"
+msgstr ""
+
+#: includes/functions.php:784
+msgid "{{attribute_title}} has to be selected"
+msgstr ""
+
+#: includes/functions.php:786
+msgid "{{attribute_title}} has to be checked"
+msgstr ""
+
+#: includes/functions.php:787
+msgid "{{attribute_title}} has to be entered"
+msgstr ""
+
+#: includes/functions.php:788
+msgid "{{attribute_title}} has be entered"
+msgstr ""
+
+#: includes/pdr-template-functions.php:854
+msgid "Original"
+msgstr ""
+
+#: includes/pdr-template-functions.php:858
+msgid "Invert"
+msgstr ""
+
+#: includes/pdr-template-functions.php:862
+msgid "Kodachrome"
+msgstr ""
+
+#: includes/pdr-template-functions.php:866
+msgid "BlackWhite"
+msgstr ""
+
+#: includes/pdr-template-functions.php:870
+msgid "Technicolor"
+msgstr ""
+
+#: includes/pdr-template-functions.php:874
+msgid "Brownie"
+msgstr ""
+
+#: includes/pdr-template-functions.php:878
+msgid "Vintage"
+msgstr ""
+
+#: includes/pdr-template-functions.php:882
+msgid "Sepia"
+msgstr ""
+
+#: includes/pdr-template-functions.php:886
+msgid "Sharpen"
+msgstr ""
+
+#: includes/pdr-template-functions.php:890
+msgid "Emboss"
+msgstr ""
+
+#: includes/pdr-template-functions.php:894
+msgid "Polaroid"
+msgstr ""
+
+#: includes/pdr-template-functions.php:912
+msgid "Brightness"
+msgstr ""
+
+#: includes/pdr-template-functions.php:916
+msgid "Contrast"
+msgstr ""
+
+#: includes/pdr-template-functions.php:920
+msgid "Saturation"
+msgstr ""
+
+#: includes/privacy/class-pdr-privacy.php:58
+msgid "This includes the basics of what personal data your store may be collecting, storing and sharing. Depending on what settings are enabled and which additional plugins are used, the specific information shared by your store will vary."
+msgstr ""
+
+#: includes/privacy/class-pdr-privacy.php:59
+msgid "What the Plugin Does?"
+msgstr ""
+
+#: includes/privacy/class-pdr-privacy.php:60
+msgid "Using this plugin, you can allow your users to design the products as per their preference and purchase them in your Shop."
+msgstr ""
+
+#: includes/privacy/class-pdr-privacy.php:61
+msgid "What We Collect and Store?"
+msgstr ""
+
+#: includes/privacy/class-pdr-privacy.php:62
+msgid "This plugin does not collect or store any personal information about the users."
+msgstr ""
+
+#: product-designer-for-woocommerce.php:353
+msgid "Image Type not supported."
+msgstr ""
+
+#. translators: %s: image minimum size
+#: product-designer-for-woocommerce.php:355
+msgid "Image size should be atleast %s Kb"
+msgstr ""
+
+#. translators: %s: image maximum size
+#: product-designer-for-woocommerce.php:357
+msgid "Image size cannot be more than %s Kb"
+msgstr ""
+
+#. translators: %s: image minimum dimension
+#: product-designer-for-woocommerce.php:359
+msgid "Min Dimensions for Image are %s"
+msgstr ""
+
+#. translators: %s: image maximum dimension
+#: product-designer-for-woocommerce.php:361
+msgid "Max Dimensions for Image are %s"
+msgstr ""
+
+#: product-designer-for-woocommerce.php:362
+#: templates/frontend-mobile-view.php:656
+#: templates/frontend-ui.php:627
+msgid "Choose Product Base"
+msgstr ""
+
+#: product-designer-for-woocommerce.php:363
+msgid "Choose Product"
+msgstr ""
+
+#: product-designer-for-woocommerce.php:364
+msgid "Sorry Product Attributes Data required for add to cart"
+msgstr ""
+
+#: product-designer-for-woocommerce.php:365
+msgid "Product successfully added to session"
+msgstr ""
+
+#: product-designer-for-woocommerce.php:397
+msgid "Upload file must be in jpeg/png/txt file"
+msgstr ""
+
+#: product-designer-for-woocommerce.php:407
+msgid "Choose Image"
+msgstr ""
+
+#: product-designer-for-woocommerce.php:408
+msgid "Use Image"
+msgstr ""
+
+#: product-designer-for-woocommerce.php:418
+msgctxt "enhanced select"
+msgid "No matches found"
+msgstr ""
+
+#: product-designer-for-woocommerce.php:419
+msgctxt "enhanced select"
+msgid "Please enter 1 or more characters"
+msgstr ""
+
+#: product-designer-for-woocommerce.php:420
+msgctxt "enhanced select"
+msgid "Please enter %qty% or more characters"
+msgstr ""
+
+#: product-designer-for-woocommerce.php:421
+msgctxt "enhanced select"
+msgid "Please delete 1 character"
+msgstr ""
+
+#: product-designer-for-woocommerce.php:422
+msgctxt "enhanced select"
+msgid "Please delete %qty% characters"
+msgstr ""
+
+#: product-designer-for-woocommerce.php:423
+msgctxt "enhanced select"
+msgid "You can only select 1 item"
+msgstr ""
+
+#: product-designer-for-woocommerce.php:424
+msgctxt "enhanced select"
+msgid "You can only select %qty% items"
+msgstr ""
+
+#: product-designer-for-woocommerce.php:425
+msgctxt "enhanced select"
+msgid "Loading more results&hellip;"
+msgstr ""
+
+#: product-designer-for-woocommerce.php:426
+msgctxt "enhanced select"
+msgid "Searching&hellip;"
+msgstr ""
+
+#: templates/cliparts.php:8
+#: templates/cliparts.php:10
+#: templates/frontend-mobile-view.php:665
+#: templates/frontend-mobile-view.php:667
+#: templates/frontend-ui.php:636
+#: templates/frontend-ui.php:638
+#: templates/shapes.php:8
+#: templates/shapes.php:10
+#: templates/templates.php:8
+#: templates/templates.php:10
+msgid "All Categories"
+msgstr ""
+
+#: templates/frontend-mobile-view.php:42
+#: templates/frontend-ui.php:47
+msgid "PNG"
+msgstr ""
+
+#: templates/frontend-mobile-view.php:43
+#: templates/frontend-ui.php:48
+msgid "PDF"
+msgstr ""
+
+#: templates/frontend-mobile-view.php:49
+#: templates/frontend-ui.php:54
+msgid "Paper"
+msgstr ""
+
+#: templates/frontend-mobile-view.php:65
+#: templates/frontend-ui.php:70
+msgid "in"
+msgstr ""
+
+#: templates/frontend-mobile-view.php:80
+#: templates/frontend-ui.php:85
+msgid "W:"
+msgstr ""
+
+#: templates/frontend-mobile-view.php:84
+#: templates/frontend-ui.php:89
+msgid "H:"
+msgstr ""
+
+#: templates/frontend-mobile-view.php:93
+#: templates/frontend-ui.php:98
+msgid "Include Base"
+msgstr ""
+
+#: templates/frontend-mobile-view.php:101
+#: templates/frontend-ui.php:106
+msgid "Download"
+msgstr ""
+
+#: templates/frontend-mobile-view.php:105
+#: templates/frontend-ui.php:110
+msgid "Download as PDF"
+msgstr ""
+
+#: templates/frontend-mobile-view.php:109
+#: templates/frontend-ui.php:114
+msgid "Print"
+msgstr ""
+
+#: templates/frontend-mobile-view.php:160
+msgid "Design"
+msgstr ""
+
+#: templates/frontend-mobile-view.php:411
+#: templates/frontend-ui.php:461
+msgid "Send object to Back"
+msgstr ""
+
+#: templates/frontend-mobile-view.php:414
+#: templates/frontend-ui.php:464
+msgid "Send object to Front"
+msgstr ""
+
+#: templates/frontend-mobile-view.php:417
+#: templates/frontend-ui.php:467
+msgid "Copy selected object"
+msgstr ""
+
+#: templates/frontend-mobile-view.php:421
+#: templates/frontend-ui.php:471
+msgid "Delete selected object"
+msgstr ""
+
+#: templates/frontend-mobile-view.php:456
+#: templates/frontend-ui.php:430
+msgid "Align Left"
+msgstr ""
+
+#: templates/frontend-mobile-view.php:457
+#: templates/frontend-ui.php:431
+msgid "Align Center"
+msgstr ""
+
+#: templates/frontend-mobile-view.php:458
+#: templates/frontend-ui.php:432
+msgid "Align Right"
+msgstr ""
+
+#: templates/frontend-mobile-view.php:459
+#: templates/frontend-ui.php:433
+msgid "Align Justify"
+msgstr ""
+
+#: templates/frontend-mobile-view.php:461
+#: templates/frontend-ui.php:435
+msgid "Subscript"
+msgstr ""
+
+#: templates/frontend-mobile-view.php:462
+#: templates/frontend-ui.php:436
+msgid "Superscript"
+msgstr ""
+
+#: templates/frontend-mobile-view.php:464
+#: templates/frontend-ui.php:438
+msgid "Uppercase"
+msgstr ""
+
+#: templates/frontend-mobile-view.php:465
+#: templates/frontend-ui.php:439
+msgid "Lowercase"
+msgstr ""
+
+#: templates/frontend-mobile-view.php:471
+#: templates/frontend-ui.php:445
+msgid "Text Bold"
+msgstr ""
+
+#: templates/frontend-mobile-view.php:472
+#: templates/frontend-ui.php:446
+msgid "Underline"
+msgstr ""
+
+#: templates/frontend-mobile-view.php:473
+#: templates/frontend-ui.php:447
+msgid "Italic"
+msgstr ""
+
+#: templates/frontend-mobile-view.php:474
+#: templates/frontend-ui.php:448
+msgid "Overline"
+msgstr ""
+
+#: templates/frontend-mobile-view.php:475
+#: templates/frontend-ui.php:449
+msgid "Linethrough"
+msgstr ""
+
+#: templates/frontend-mobile-view.php:484
+#: templates/frontend-ui.php:454
+msgid "Shape Colors"
+msgstr ""
+
+#: templates/frontend-mobile-view.php:485
+#: templates/frontend-ui.php:455
+msgid "Fill Color"
+msgstr ""
+
+#: templates/frontend-mobile-view.php:486
+#: templates/frontend-ui.php:456
+msgid "Stroke Color"
+msgstr ""
+
+#: templates/frontend-mobile-view.php:490
+#: templates/frontend-ui.php:501
+msgid "Clipboard"
+msgstr ""
+
+#: templates/frontend-mobile-view.php:492
+#: templates/frontend-ui.php:503
+msgid "Paste copied object"
+msgstr ""
+
+#: templates/frontend-mobile-view.php:692
+#: templates/frontend-ui.php:667
+msgid "Your Saved Designs"
+msgstr ""
+
+#: templates/frontend-ui.php:26
+msgid "Loading All Views"
+msgstr ""
+
+#: templates/frontend-ui.php:424
+msgid "Text Customization Tools"
+msgstr ""
+
+#: templates/frontend-ui.php:427
+msgid "Mask the text object with image"
+msgstr ""
+
+#: templates/frontend-ui.php:475
+msgid "Filters"
+msgstr ""
+
+#: templates/frontend-ui.php:565
+msgid "Text Mask"
+msgstr ""

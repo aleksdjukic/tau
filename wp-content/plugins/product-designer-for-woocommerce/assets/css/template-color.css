@@ -1,0 +1,101 @@
+/*Multiple color template select css */
+
+/*style-1 (Dark Blue) */
+
+.navbar,
+.footer {
+    background: #1b00d1;
+} 
+.btn-group a.active {
+    border-bottom: 2px solid #1b00d1;
+}
+
+/*style-2 (Gossamer) */
+
+.navbar,
+.footer {
+    background: #099d84;
+} 
+.btn-group a.active {
+    border-bottom: 2px solid #099d84;
+}
+
+/*style-3 (Rio Grande) */
+
+.navbar,
+.footer {
+    background: #c5d100;
+} 
+.btn-group a.active {
+    border-bottom: 2px solid #c5d100;
+}
+
+/*style-4 (Green) */
+
+.navbar,
+.footer {
+    background: #00d111;
+} 
+.btn-group a.active {
+    border-bottom: 2px solid #00acd1;
+}
+
+/*style-5 (Purple) */
+
+.navbar,
+.footer {
+    background: #69048f;
+} 
+.btn-group a.active {
+    border-bottom: 2px solid #69048f;
+}
+
+/*style-6 (Cardinal Pink) */
+
+.navbar,
+.footer {
+    background: #8f0470;
+} 
+.btn-group a.active {
+    border-bottom: 2px solid #8f0470;
+}
+
+/*style-7 (Cherry Pie) */
+
+.navbar,
+.footer {
+    background: #2f014b;
+} 
+.btn-group a.active {
+    border-bottom: 2px solid #2f014b;
+}
+
+/*style-8 (Red) */
+
+.navbar,
+.footer {
+    background: #ef0000;
+} 
+.btn-group a.active {
+    border-bottom: 2px solid #ef0000;
+}
+
+/*style-9 (Corn) */
+
+.navbar,
+.footer {
+    background: #d7b600;
+} 
+.btn-group a.active {
+    border-bottom: 2px solid #d7b600;
+}
+
+/*style-10 (Paprika) */
+
+.navbar,
+.footer {
+    background: #8f0430;
+} 
+.btn-group a.active {
+    border-bottom: 2px solid #8f0430;
+}

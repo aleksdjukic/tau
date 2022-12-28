@@ -1,0 +1,51 @@
+2022-12-08T06:52:44+00:00 CRITICAL Uncaught Error: Class 'ElementorPro\Modules\Forms\Actions\Drip' not found in /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/elementor-pro/modules/forms/registrars/form-actions-registrar.php:42
+Stack trace:
+#0 /home/sawproch/public_html/taurussports.omae.ch/wp-includes/class-wp-hook.php(308): ElementorPro\Modules\Forms\Registrars\Form_Actions_Registrar->ElementorPro\Modules\Forms\Registrars\{closure}(Object(ElementorPro\Modules\Forms\Registrars\Form_Actions_Registrar))
+#1 /home/sawproch/public_html/taurussports.omae.ch/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /home/sawproch/public_html/taurussports.omae.ch/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/elementor-pro/modules/forms/registrars/form-actions-registrar.php(74): do_action('elementor_pro/f...', Object(ElementorPro\Modules\Forms\Registrars\Form_Actions_Registrar))
+#4 /home/sawproch/public_html/taurussports.omae.ch/wp-conte in /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/elementor-pro/modules/forms/registrars/form-actions-registrar.php on line 42
+
+2022-12-08T06:52:48+00:00 CRITICAL require(): Failed opening required '/home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/elementor-pro/plugin.php' (include_path='.') in /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/elementor-pro/elementor-pro.php on line 57
+
+2022-12-08T06:52:50+00:00 CRITICAL require(): Failed opening required '/home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/wp-smush-pro/core/modules/class-resize.php' (include_path='.') in /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/wp-smush-pro/wp-smush.php on line 271
+
+2022-12-08T06:52:54+00:00 CRITICAL require_once(): Failed opening required '/home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/yith-woocommerce-ajax-navigation/plugin-fw/includes/class-yit-plugin-common.php' (include_path='.') in /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/yith-woocommerce-ajax-navigation/plugin-fw/yit-plugin.php on line 24
+
+2022-12-08T06:52:56+00:00 CRITICAL require(): Failed opening required '/home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/wp-smush-pro/core/api/class-hub.php' (include_path='.') in /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/wp-smush-pro/wp-smush.php on line 271
+
+2022-12-08T06:52:58+00:00 CRITICAL require_once(): Failed opening required '/home/sawproch/public_html/taurussports.omae.ch/wp-content/themes/astra/inc/compatibility/class-astra-amp.php' (include_path='.') in /home/sawproch/public_html/taurussports.omae.ch/wp-content/themes/astra/functions.php on line 148
+
+2022-12-08T06:53:01+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1401): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1360): WC_Cart->calculate_totals()
+#5 /home/sawproch/public_html/taurussports.omae. in /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php on line 225
+
+2022-12-08T10:04:05+00:00 CRITICAL require_once(): Failed opening required '/home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/yith-woocommerce-ajax-navigation/plugin-fw/includes/class-yit-gradients.php' (include_path='.') in /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/yith-woocommerce-ajax-navigation/plugin-fw/yit-plugin.php on line 25
+
+2022-12-08T10:04:05+00:00 CRITICAL require_once(): Failed opening required '/home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/wp-smush-pro/vendor/mixpanel/mixpanel-php/lib/ConsumerStrategies/CurlConsumer.php' (include_path='.') in /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/wp-smush-pro/vendor/mixpanel/mixpanel-php/lib/Producers/MixpanelBaseProducer.php on line 4
+
+2022-12-08T10:04:18+00:00 CRITICAL Uncaught Error: Class 'ElementorPro\Modules\Forms\Classes\Ajax_Handler' not found in /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/elementor-pro/modules/forms/module.php:194
+Stack trace:
+#0 /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/elementor/core/base/module.php(85): ElementorPro\Modules\Forms\Module->__construct()
+#1 /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/elementor-pro/core/modules-manager.php(86): Elementor\Core\Base\Module::instance()
+#2 /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/elementor-pro/plugin.php(357): ElementorPro\Core\Modules_Manager->__construct()
+#3 /home/sawproch/public_html/taurussports.omae.ch/wp-includes/class-wp-hook.php(308): ElementorPro\Plugin->on_elementor_init('')
+#4 /home/sawproch/public_html/taurussports.omae.ch/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 /home/sawproch/public_html/taurussports.omae.ch/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+# in /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/elementor-pro/modules/forms/module.php on line 194
+
+2022-12-08T14:06:06+00:00 CRITICAL Uncaught Error: Class '\ElementorPro\Modules\ScrollSnap\Module' not found in /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/elementor-pro/core/modules-manager.php:75
+Stack trace:
+#0 /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/elementor-pro/plugin.php(357): ElementorPro\Core\Modules_Manager->__construct()
+#1 /home/sawproch/public_html/taurussports.omae.ch/wp-includes/class-wp-hook.php(308): ElementorPro\Plugin->on_elementor_init('')
+#2 /home/sawproch/public_html/taurussports.omae.ch/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 /home/sawproch/public_html/taurussports.omae.ch/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/elementor/includes/plugin.php(652): do_action('elementor/init')
+#5 /home/sawproch/public_html/taurussports.omae.ch/wp-includes/class-wp-hook.php(308): Elementor\Plugin->init('')
+#6 /home/sawproch/public_html/taurussports.omae.ch/wp-includes/class-w in /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/elementor-pro/core/modules-manager.php on line 75
+

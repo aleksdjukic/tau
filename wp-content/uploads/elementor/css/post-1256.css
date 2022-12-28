@@ -1,0 +1,104 @@
+.elementor-1256 .elementor-element.elementor-element-2f7c0da4{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;}.elementor-1256 .elementor-element.elementor-element-2f7c0da4 > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-1256 .elementor-element.elementor-element-6305ddb1 .elementor-heading-title{color:#FFFFFF;}.elementor-1256 .elementor-element.elementor-element-dfea582:not(.elementor-motion-effects-element-type-background), .elementor-1256 .elementor-element.elementor-element-dfea582 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#9B555500;}.elementor-1256 .elementor-element.elementor-element-dfea582{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;}.elementor-1256 .elementor-element.elementor-element-dfea582 > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-1256 .elementor-element.elementor-element-701fa92 > .elementor-element-populated{margin:0px 0px 0px 0px;--e-column-margin-right:0px;--e-column-margin-left:0px;padding:0px 0px 0px 0px;}.elementor-1256 .elementor-element.elementor-element-d18f84a{column-gap:0px;text-align:left;font-family:"Karla", Sans-serif;font-size:20px;font-weight:400;text-decoration:none;line-height:45px;width:initial;max-width:initial;}.elementor-1256 .elementor-element.elementor-element-d18f84a > .elementor-widget-container{padding:70px 20px 70px 20px;background-color:#FFFFFF;border-radius:30px 30px 30px 30px;box-shadow:0px 0px 30px 10px rgba(0, 0, 0, 0.07);}.elementor-1256 .elementor-element.elementor-element-3397f7d .elementor-heading-title{color:var( --e-global-color-secondary );font-family:"Karla", Sans-serif;font-size:30px;font-weight:700;font-style:normal;line-height:35px;}.elementor-1256 .elementor-element.elementor-element-0fcda5d{font-family:"Karla", Sans-serif;font-size:20px;font-weight:400;line-height:30px;}.elementor-1256 .elementor-element.elementor-element-5701d48 .elementor-heading-title{color:var( --e-global-color-secondary );font-family:"Karla", Sans-serif;font-size:30px;font-weight:700;font-style:normal;line-height:35px;}.elementor-1256 .elementor-element.elementor-element-eaf8008{--grid-column-gap:30px;--grid-row-gap:35px;}.elementor-1256 .elementor-element.elementor-element-e0e18e4 .elementor-heading-title{color:var( --e-global-color-secondary );font-family:"Karla", Sans-serif;font-size:30px;font-weight:700;font-style:normal;line-height:35px;}.elementor-1256 .elementor-element.elementor-element-e0e18e4 > .elementor-widget-container{padding:30px 0px 0px 0px;border-style:solid;border-width:1px 0px 0px 0px;border-color:#C3C3B9;border-radius:0px 0px 0px 0px;}.elementor-1256 .elementor-element.elementor-element-8fbf1f7{--grid-column-gap:30px;--grid-row-gap:35px;}@media(min-width:768px){.elementor-1256 .elementor-element.elementor-element-701fa92{width:20%;}.elementor-1256 .elementor-element.elementor-element-e4ec918{width:79.665%;}}/* Start custom CSS for image, class: .elementor-element-436aa97e */@media only screen and (max-width: 600px) {
+    .elementor-1256 .elementor-element.elementor-element-436aa97e img{
+        height: 320px;
+    object-fit: cover;
+    }
+
+}/* End custom CSS */
+/* Start custom CSS for heading, class: .elementor-element-6305ddb1 */.elementor-1256 .elementor-element.elementor-element-6305ddb1{
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    left: calc((100vw - 1600px) / 2);
+    max-width: 750px;
+}
+
+
+@media only screen and (max-width: 1600px){
+    .elementor-1256 .elementor-element.elementor-element-6305ddb1{
+        left: 30px;
+        max-width: 70vw;
+    }
+    
+    .elementor-1256 .elementor-element.elementor-element-6305ddb1 h1{
+        font-size: 40px!important;
+    }
+}/* End custom CSS */
+/* Start custom CSS for text-editor, class: .elementor-element-d18f84a */.elementor-1256 .elementor-element.elementor-element-d18f84a ul{
+    list-style: none;
+    margin: 0!important;
+}
+.elementor-1256 .elementor-element.elementor-element-d18f84a ul li a{
+    position: relative;
+    color: #1D1D1B
+    text-decoration: none!Important;
+}
+.elementor-1256 .elementor-element.elementor-element-d18f84a ul li a::after{
+    position: absolute;
+    transition: width 0.3s ease;
+    content: "";
+    left: 0px;
+    bottom: -5px;
+    width: 0px;
+    height: 1px;
+    background-color: #1D1D1B;
+}
+.elementor-1256 .elementor-element.elementor-element-d18f84a ul li a:hover::after,
+ .elementor-1256 .elementor-element.elementor-element-d18f84a ul li a.active::after{
+    width: 100%;
+}
+#movable-content-box{
+    width: 100%;
+}
+.about-us-dropdown{
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.5s ease;
+}
+.about-us-dropdown li{
+    color: rgba(29,29,27,0.6);
+    font-size: 17px!Important;
+    line-height: 25px;
+    padding-bottom: 5px;
+}
+.about-us-dropdown li a{
+     color: rgba(29,29,27,0.6)!important;
+    font-size: 17px!Important;
+    line-height: 25px;
+}
+.about-us-dropdown li a::after{
+    background-color: rgba(29,29,27,0.6)!important;
+}
+.partner-dropdown-button{
+    transition: transform 0.3s ease!important;
+     transform: rotate(0deg);
+    padding-left: 10px;
+    cursor: pointer;
+}
+.partner-dropdown-button.active{
+   transform: rotate(90deg) translate(-5px, -1px);
+}/* End custom CSS */
+/* Start custom CSS for section, class: .elementor-element-dfea582 */.elementor-1256 .elementor-element.elementor-element-dfea582{
+    margin-top: -100px;
+}
+
+.elementor-1256 .elementor-element.elementor-element-dfea582 > div > div:last-child{
+    background-color: #FFFFFF!important;
+    border-radius: 30px;
+    padding: 70px;
+    margin-left: 30px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.07)
+}
+@media only screen and (max-width: 600px) {
+    .elementor-1256 .elementor-element.elementor-element-dfea582 > div > div:last-child{
+        padding: 30px 20px;
+        margin-top:30px;
+        margin-left: 0px;
+}
+  .elementor-1256 .elementor-element.elementor-element-dfea582 > div > div:last-child > div{
+      padding: 0px!important;
+  }
+.elementor-1256 .elementor-element.elementor-element-dfea582{
+    padding:0px 25px;
+}
+}/* End custom CSS */

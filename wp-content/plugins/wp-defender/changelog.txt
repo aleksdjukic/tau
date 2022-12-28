@@ -1,0 +1,92 @@
+Plugin Name: WP Defender
+Author: WPMU DEV
+Tested up to: 6.1.1
+
+Change Log:
+
+= 3.7.0 ( 2022-12-14 ) =
+
+- New: Firewall widget displaying a list of the countries with the highest number of blocked IPs
+- Enhance: Block IP when UA is banned
+- Enhance: Display IP value in the Firewall log header
+- Enhance: Save TOTP secret key to DB only after code verification
+- Enhance: Add max number of lockout records
+- Enhance: Add timestamp for all lockout records
+- Enhance: Firewall Log improvements
+- Enhance: User role check
+- Fix: Settings saved notice not dismissed automatically
+- Fix: Two files from Avada builder 3.8 are reported as suspicious
+- Fix: Broken CVSS score details of previously ignored issue
+
+= 3.6.0 ( 2022-12-05 ) =
+
+- New: Global IP Allowlist/Blocklist
+
+= 3.5.0 ( 2022-11-21 ) =
+
+- Enhance: Two-Factor conflict between Defender and WordFence
+- Enhance: Notification configuration settings
+- Enhance: Notice for viewing two-factor user information on multisite
+- Enhance: Code color for PHP Execution and Information Disclosure
+- Enhance: Update SUI to the latest version
+- Fix: Banned usernames for WP version older than 5.4
+- Fix: Date range calendar on Audit and Firewall logs
+- Fix: Remove 'Name & Description' option for the Default Security config
+- Fix: NaN showing on Recommendations screen
+- Fix: Audit date filter not working for predefined data ranges
+- Fix: Redirect URL for the Mask Login feature throwing an error
+
+= 3.4.1 ( 2022-11-17 ) =
+
+- Enhance: Minor performance improvements
+
+= 3.4.0 ( 2022-11-01 ) =
+
+- New: Disable Google reCAPTCHA for logged-in users
+- Enhance: Check HTML Entity for Audit Logs
+- Enhance: Web Authentication notice on 2FA page
+- Enhance: Show CVSS score in plugin vulnerability details
+- Enhance: Compatibility with WordPress 6.1
+- Enhance: IP detection
+- Fix: Web Authentication during plugin upgrade
+- Fix: Banned usernames for existing users
+- Fix: Outdated manual rules for Prevent Information Disclosure
+- Fix: User detail doesn't match the login/logout audit logs
+- Fix: Defender 2FA conflicts with other plugins on Users page
+- Fix: Displaying users when bulk updating notifications
+- Fix: Masked Login not updating on My sites menu
+- Fix: Conflict with OptimizePress
+
+= 3.3.3 ( 2022-10-20 ) =
+
+- Enhance: 2FA flow for secret keys
+
+= 3.3.2 ( 2022-09-29 ) =
+
+- Fix: Encrypt 2FA secret keys
+
+= 3.3.1 ( 2022-09-21 ) =
+
+- Enhance: 2FA security improvements
+- Enhance: IP detection
+- Enhance: Replace Google fonts with Bunny fonts for GDPR compliance
+- Enhance: Membership detection
+- Fix: Defender User Agent banning
+
+= 3.3.0 ( 2022-09-05 ) =
+
+- New: Google reCAPTCHA integration with BuddyPress plugin
+- New: Google reCAPTCHA for WooCommerce Checkout
+- Enhance: Add new Delete Lockouts button
+- Enhance: Prevent brute force attack through 2fa
+- Enhance: Wildcard for User Agent
+- Enhance: Add new checkbox for User Agent Lockout to Firewall notification
+- Enhance: Disable Delete button for active theme
+- Enhance: Vulnerability when scanned using OWASP tools
+- Fix: WebAuthn not working automatically on Subsites when it is enabled in Network for Multisite
+- Fix: WebAuthn devices unregistered from user profile if salt keys are updated
+- Fix: Audit log not capturing event on few themes during login or logout
+- Fix: Google reCAPTCHA triggers on Rest API and prevents adding new user for WooCommerce
+
+
+682802-1671086806-au

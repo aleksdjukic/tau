@@ -1,0 +1,116 @@
+.elementor-kit-19{--e-global-color-primary:#FFDD00;--e-global-color-secondary:#1D1D1B;--e-global-color-text:#1D1D1B;--e-global-color-accent:#DBBE00;--e-global-typography-primary-font-family:"Raleway";--e-global-typography-primary-font-size:65px;--e-global-typography-primary-font-weight:900;--e-global-typography-primary-font-style:italic;--e-global-typography-secondary-font-family:"Raleway";--e-global-typography-secondary-font-size:55px;--e-global-typography-secondary-font-weight:900;--e-global-typography-secondary-font-style:italic;--e-global-typography-text-font-family:"Karla";--e-global-typography-text-font-weight:400;--e-global-typography-accent-font-family:"Karla";--e-global-typography-accent-font-weight:400;color:#1D1D1B;font-family:"Karla", Sans-serif;background-color:#F0F0F0;}.elementor-kit-19 a{color:#1D1D1B;font-style:normal;text-decoration:none;}.elementor-kit-19 a:hover{color:#4B4B46;text-decoration:none;}.elementor-kit-19 h1{color:#F0F0F0;font-family:"Raleway", Sans-serif;font-size:65px;font-weight:900;font-style:italic;}.elementor-kit-19 h2{color:#1D1D1B;font-family:"Raleway", Sans-serif;font-size:55px;font-weight:900;font-style:italic;}.elementor-kit-19 h3{color:#1D1D1B;font-size:30px;font-weight:700;}.elementor-kit-19 h4{color:#1D1D1B;font-family:"Karla", Sans-serif;font-size:30px;font-weight:700;}.elementor-kit-19 h5{color:#1D1D1B;font-family:"Karla", Sans-serif;font-size:24px;}.elementor-kit-19 h6{color:#1D1D1B;font-family:"Karla", Sans-serif;font-size:24px;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1600px;}.e-con{--container-max-width:1600px;}.elementor-widget:not(:last-child){margin-bottom:20px;}.elementor-element{--widgets-spacing:20px;}{}h1.entry-title{display:var(--page-title-display);}@media(max-width:1024px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}.e-con{--container-max-width:1024px;}}@media(max-width:767px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}.e-con{--container-max-width:767px;}}/* Start custom CSS */a{
+    text-decoration: none!important;
+}
+
+.break{
+    word-break: break-word;
+}
+
+.woocommerce-cart .shop_table{
+    border: none!important;
+}
+
+.woocommerce-cart .shop_table thead{
+    background: transparent!important;
+}
+
+.woocommerce-cart .shop_table button,
+.woocommerce-cart .cart_totals a,
+.woocommerce-checkout #order_review button{
+    border-radius: 100px!important;
+     font-family: 'Karla', sans-serif; 
+    font-weight: 900;
+    padding: 15px 35px!important;
+    transition: color .3s ease, background .3s ease;
+}
+
+.woocommerce-cart .shop_table button:hover,
+.woocommerce-cart .cart_totals a:hover,
+.woocommerce-checkout #order_review button:hover{
+    background: #1D1D1B!important;
+    color: #FFDD00!important;
+}
+
+.woocommerce-cart .shop_table .product-thumbnail img{
+    max-width: 110px!important;
+    border-radius: 15px;
+}
+
+.woocommerce-cart .cart_totals{
+    border: none;
+    background: #fff;
+    border-radius: 30px!important;
+    overflow: hidden;
+    margin-bottom: 0!important;
+    box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
+}
+
+.woocommerce-checkout form[name="checkout"] #customer_details{
+    background: #fff;
+    padding: 0 20px 20px;
+    border-radius: 30px!important;
+    margin-bottom: 0!important;
+    box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
+}
+
+
+.woocommerce-checkout input,
+.woocommerce-checkout textarea,
+.woocommerce-checkout .select2-selection{
+    background-color: #F0F0F0!important;
+    border-radius: 30px!important;
+    border: none;
+}
+
+.woocommerce-checkout #order_review_heading{
+    border-width: 0!important;
+    background-color: #fff;
+    border-radius: 30px 30px 0 0;
+    box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
+}
+
+.woocommerce-checkout #order_review{
+    border-width: 0!important;
+    background-color: #fff;
+    border-radius: 0 0 30px 30px;
+    box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**//* End custom CSS */

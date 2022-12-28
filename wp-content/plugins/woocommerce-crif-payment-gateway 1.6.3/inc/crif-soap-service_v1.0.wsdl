@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://www.crif-online.ch/webservices/crifsoapservice/wsdl/v1.00" xmlns:crifss10="http://www.crif-online.ch/webservices/crifsoapservice/v1.00" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" name="CrifSoapServiceV1_0" targetNamespace="http://www.crif-online.ch/webservices/crifsoapservice/wsdl/v1.00">
+	<documentation>Crif Soap Service V1.0</documentation>
+	<types>
+		<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+			<xs:import namespace="http://www.crif-online.ch/webservices/crifsoapservice/v1.00" schemaLocation="crif-soap-service_v1.0.xsd"/>
+		</xs:schema>
+	</types>
+	<message name="ServiceError">
+		<part name="error" element="crifss10:error">
+		</part>
+	</message>
+	<message name="identifyAddressRequest">
+		<part name="parameter" element="crifss10:identifyAddressRequest">
+		</part>
+	</message>
+	<message name="identifyAddressResponse">
+		<part name="return" element="crifss10:identifyAddressResponse">
+		</part>
+	</message>
+	<message name="getReportRequest">
+		<part name="parameter" element="crifss10:getReportRequest">
+		</part>
+	</message>
+	<message name="getReportResponse">
+		<part name="return" element="crifss10:getReportResponse">
+		</part>
+	</message>
+	<message name="getArchivedReportRequest">
+		<part name="parameter" element="crifss10:getArchivedReportRequest">
+		</part>
+	</message>
+	<message name="getArchivedReportResponse">
+		<part name="return" element="crifss10:getArchivedReportResponse">
+		</part>
+	</message>
+	<message name="getDebtDetailsRequest">
+		<part name="parameter" element="crifss10:getDebtDetailsRequest">
+		</part>
+	</message>
+	<message name="getDebtDetailsResponse">
+		<part name="return" element="crifss10:getDebtDetailsResponse">
+		</part>
+	</message>
+	<message name="orderOfflineReportRequest">
+		<part name="parameter" element="crifss10:orderOfflineReportRequest">
+		</part>
+	</message>
+	<message name="orderOfflineReportResponse">
+		<part name="return" element="crifss10:orderOfflineReportResponse">
+		</part>
+	</message>
+	<portType name="CrifSoapServicePortTypeV1_0">
+		<operation name="identifyAddress">
+			<input name="iaInput" message="tns:identifyAddressRequest">
+			</input>
+			<output name="iaOutput" message="tns:identifyAddressResponse">
+			</output>
+			<fault name="error" message="tns:ServiceError">
+			</fault>
+		</operation>
+		<operation name="getReport">
+			<input name="grInput" message="tns:getReportRequest">
+			</input>
+			<output name="grOutput" message="tns:getReportResponse">
+			</output>
+			<fault name="error" message="tns:ServiceError">
+			</fault>
+		</operation>
+		<operation name="getArchivedReport">
+			<input name="garInput" message="tns:getArchivedReportRequest">
+			</input>
+			<output name="garOutput" message="tns:getArchivedReportResponse">
+			</output>
+			<fault name="error" message="tns:ServiceError">
+			</fault>
+		</operation>
+		<operation name="getDebtDetails">
+			<input name="gddInput" message="tns:getDebtDetailsRequest">
+			</input>
+			<output name="gddOutput" message="tns:getDebtDetailsResponse">
+			</output>
+			<fault name="error" message="tns:ServiceError">
+			</fault>
+		</operation>
+		<operation name="orderOfflineReport">
+			<input name="oorInput" message="tns:orderOfflineReportRequest">
+			</input>
+			<output name="oorOutput" message="tns:orderOfflineReportResponse">
+			</output>
+			<fault name="error" message="tns:ServiceError">
+			</fault>
+		</operation>
+	</portType>
+	<binding name="CrifSoapServiceBindingV1_0" type="tns:CrifSoapServicePortTypeV1_0">
+		<soap12:binding transport="http://schemas.xmlsoap.org/soap/http"/>
+		<operation name="identifyAddress">
+			<soap12:operation soapAction="identifyAddress" soapActionRequired="false" style="document"/>
+			<input name="iaInput">
+				<soap12:body use="literal"/>
+			</input>
+			<output name="iaOutput">
+				<soap12:body use="literal"/>
+			</output>
+			<fault name="error">
+				<soap12:fault name="error" use="literal"/>
+			</fault>
+		</operation>
+		<operation name="getReport">
+			<soap12:operation soapAction="getReport" soapActionRequired="false" style="document"/>
+			<input name="grInput">
+				<soap12:body use="literal"/>
+			</input>
+			<output name="grOutput">
+				<soap12:body use="literal"/>
+			</output>
+			<fault name="error">
+				<soap12:fault name="error" use="literal"/>
+			</fault>
+		</operation>
+		<operation name="getArchivedReport">
+			<soap12:operation soapAction="getArchivedReport" soapActionRequired="false" style="document"/>
+			<input name="garInput">
+				<soap12:body use="literal"/>
+			</input>
+			<output name="garOutput">
+				<soap12:body use="literal"/>
+			</output>
+			<fault name="error">
+				<soap12:fault name="error" use="literal"/>
+			</fault>
+		</operation>
+		<operation name="getDebtDetails">
+			<soap12:operation soapAction="getDebtDetails" soapActionRequired="false" style="document"/>
+			<input name="gddInput">
+				<soap12:body use="literal"/>
+			</input>
+			<output name="gddOutput">
+				<soap12:body use="literal"/>
+			</output>
+			<fault name="error">
+				<soap12:fault name="error" use="literal"/>
+			</fault>
+		</operation>
+		<operation name="orderOfflineReport">
+			<soap12:operation soapAction="orderOfflineReport" soapActionRequired="false" style="document"/>
+			<input name="oorInput">
+				<soap12:body use="literal"/>
+			</input>
+			<output name="oorOutput">
+				<soap12:body use="literal"/>
+			</output>
+			<fault name="error">
+				<soap12:fault name="error" use="literal"/>
+			</fault>
+		</operation>
+	</binding>
+	<service name="CrifSoapServiceV1_0">
+		<port name="CrifSoapServicePortV1_0" binding="tns:CrifSoapServiceBindingV1_0">
+			<soap12:address location="http://localhost:80/crifss/"/>
+		</port>
+	</service>
+</definitions>

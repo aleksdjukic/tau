@@ -1,0 +1,35 @@
+2022-12-02T08:56:19+00:00 CRITICAL Uncaught Error: Class 'Yoast\WP\Duplicate_Post\Post_Duplicator' not found in /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/duplicate-post/src/duplicate-post.php:71
+Stack trace:
+#0 /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/duplicate-post/duplicate-post.php(71): Yoast\WP\Duplicate_Post\Duplicate_Post->__construct()
+#1 /home/sawproch/public_html/taurussports.omae.ch/wp-includes/class-wp-hook.php(308): __duplicate_post_main('')
+#2 /home/sawproch/public_html/taurussports.omae.ch/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /home/sawproch/public_html/taurussports.omae.ch/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/sawproch/public_html/taurussports.omae.ch/wp-settings.php(480): do_action('plugins_loaded')
+#5 /home/sawproch/public_html/taurussports.omae.ch/wp-config.php(96): require_once('/home/sawproch/...')
+#6 /home/sawproch/public_html/taurussports.omae.ch/wp-load.php(50): require_once('/home/sawproch/...')
+#7 /home/saw in /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/duplicate-post/src/duplicate-post.php on line 71
+
+2022-12-02T08:56:23+00:00 CRITICAL require_once(): Failed opening required '/home/sawproch/public_html/taurussports.omae.ch/wp-content/themes/astra/inc/class-astra-dynamic-css.php' (include_path='.') in /home/sawproch/public_html/taurussports.omae.ch/wp-content/themes/astra/functions.php on line 65
+
+2022-12-02T08:56:24+00:00 CRITICAL require(): Failed opening required '/home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/elementor/core/editor/editor.php' (include_path='.') in /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/elementor/includes/autoloader.php on line 267
+
+2022-12-02T08:56:24+00:00 CRITICAL Uncaught Error: Class 'ElementorPro\Core\Editor\Notice_Bar' not found in /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/elementor-pro/core/editor/editor.php:114
+Stack trace:
+#0 /home/sawproch/public_html/taurussports.omae.ch/wp-includes/class-wp-hook.php(308): ElementorPro\Core\Editor\Editor->on_elementor_init('')
+#1 /home/sawproch/public_html/taurussports.omae.ch/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /home/sawproch/public_html/taurussports.omae.ch/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/elementor/includes/plugin.php(652): do_action('elementor/init')
+#4 /home/sawproch/public_html/taurussports.omae.ch/wp-includes/class-wp-hook.php(308): Elementor\Plugin->init('')
+#5 /home/sawproch/public_html/taurussports.omae.ch/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /home/sawproch/public_html/taurussports.omae.ch/wp-includes/plugin.php(517): WP_Hook- in /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/elementor-pro/core/editor/editor.php on line 114
+
+2022-12-02T08:56:34+00:00 CRITICAL require(): Failed opening required '/home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/elementor//includes/base/controls-stack.php' (include_path='.') in /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/elementor/includes/autoloader.php on line 267
+
+2022-12-02T08:56:38+00:00 CRITICAL require_once(): Failed opening required '/home/sawproch/public_html/taurussports.omae.ch/wp-content/themes/astra/inc/compatibility/class-astra-elementor.php' (include_path='.') in /home/sawproch/public_html/taurussports.omae.ch/wp-content/themes/astra/functions.php on line 157
+
+2022-12-02T09:03:59+00:00 CRITICAL require(): Failed opening required '/home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-report-sales-v1-controller.php' (include_path='.') in /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+
+2022-12-02T09:17:38+00:00 CRITICAL require(): Failed opening required '/home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/woocommerce/src/Internal/Admin/Schedulers/ImportInterface.php' (include_path='.') in /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+
+2022-12-02T09:17:46+00:00 CRITICAL require(): Failed opening required '/home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/elementor/core/settings/base/manager.php' (include_path='.') in /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/elementor/includes/autoloader.php on line 267
+

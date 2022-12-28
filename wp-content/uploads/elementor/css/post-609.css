@@ -1,0 +1,127 @@
+.elementor-609 .elementor-element.elementor-element-2f7c0da4{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;}.elementor-609 .elementor-element.elementor-element-2f7c0da4 > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-609 .elementor-element.elementor-element-6305ddb1 .elementor-heading-title{color:#FFFFFF;}.elementor-609 .elementor-element.elementor-element-2014701{margin-top:-100px;margin-bottom:0px;}/* Start custom CSS for image, class: .elementor-element-436aa97e */@media only screen and (max-width: 600px) {
+    .elementor-609 .elementor-element.elementor-element-436aa97e img{
+        height: 320px;
+    object-fit: cover;
+    }
+
+}/* End custom CSS */
+/* Start custom CSS for heading, class: .elementor-element-6305ddb1 */.elementor-609 .elementor-element.elementor-element-6305ddb1{
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    left: calc((100vw - 1600px) / 2);
+    max-width: 750px;
+}
+
+
+@media only screen and (max-width: 1600px){
+    .elementor-609 .elementor-element.elementor-element-6305ddb1{
+        left: 30px;
+        max-width: 70vw;
+    }
+    
+    .elementor-609 .elementor-element.elementor-element-6305ddb1 h1{
+        font-size: 40px!important;
+    }
+}/* End custom CSS */
+/* Start custom CSS for html, class: .elementor-element-65fafe9 */.header-card-links{
+    display: flex;
+    width: 100%;
+    gap: 35px;
+    justify-content: center;
+}
+.header-card-link{
+    height: 200px;
+    padding: 30px;
+    text-align: center;
+    max-width: 510px;
+    width: 100%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 10px 50px rgba(0,0,0,0.07);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-card-link > a{
+    font-size: 40px;
+    font-family: "Karla", Sans-Serif;
+    line-height: 53px;
+    text-decoration: none!important;
+    color: #1D1D1B;
+    font-weight: 600;
+}
+.header-card-link a{
+    transition: color 0.3s ease;
+}
+.header-card-link a:hover{
+    color: #95958c;
+}
+.header-card-links-container{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.header-card-link > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+.header-card-link > div > a{
+        font-size: 40px;
+    font-family: "Karla", Sans-Serif;
+    line-height: 53px;
+    text-decoration: none!important;
+    color: #1D1D1B;
+    font-weight: 600;
+}
+.header-card-small-link{
+    display: flex;
+    gap: 10px
+    
+}
+.header-card-small-link a{
+       font-size: 25px;
+    font-family: "Karla", Sans-Serif;
+    line-height: 33px;
+    text-decoration: none!important;
+    color: #1D1D1B;
+    font-weight: 600;
+}
+@media only screen and (max-width: 1650px) {
+    .header-card-links-container{
+        padding: 30px;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .header-card-links{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .header-card-link{
+        height: 110px;
+        border-radius: 20px;
+    }
+   .header-card-links{
+       gap: 20px;
+   }
+   
+    .header-card-links-container{
+        gap: 20px;
+         padding: 25px;
+    }
+    .header-card-link > a{
+        font-size: 25px;
+        line-height: 33px;
+    }
+    .header-card-small-link a{
+        font-size:20px;
+        line-height: 27px;
+    }
+    .header-card-link > div > a{
+          font-size: 25px;
+        line-height: 33px;
+    }
+}/* End custom CSS */

@@ -1,0 +1,11 @@
+2022-12-05T18:47:46+00:00 CRITICAL Uncaught Error: Class 'WC_Integration_MaxMind_Geolocation' not found in /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/woocommerce/includes/class-wc-integrations.php:41
+Stack trace:
+#0 /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/woocommerce/includes/class-woocommerce.php(652): WC_Integrations->__construct()
+#1 /home/sawproch/public_html/taurussports.omae.ch/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#2 /home/sawproch/public_html/taurussports.omae.ch/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /home/sawproch/public_html/taurussports.omae.ch/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/sawproch/public_html/taurussports.omae.ch/wp-settings.php(617): do_action('init')
+#5 /home/sawproch/public_html/taurussports.omae.ch/wp-config.php(96): require_once('/home/sawproch/...')
+#6 /home/sawproch/public_html/taurussports.omae.ch/wp-load.php(50): require_once('/home/sawproch/...')
+#7 /home/sawproch/public_html/tauru in /home/sawproch/public_html/taurussports.omae.ch/wp-content/plugins/woocommerce/includes/class-wc-integrations.php on line 41
+
